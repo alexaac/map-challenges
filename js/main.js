@@ -122,7 +122,7 @@ const drawHierarchy = (root) => {
       .on('mouseover', (event, d) => highlightPath(event, d))
       .on('mouseout', reset)
       .on('click', (event, d) =>
-        d.data.finished ? window.open(`./${d.data.parent}/${d.data.name}`) : ''
+        d.data.finished ? window.open(`./${d.data.name}`) : ''
       );
   }
 
