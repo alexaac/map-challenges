@@ -94,6 +94,9 @@ const drawHierarchy = (root) => {
       .join('path')
       .attr('class', 'link')
       .attr('d', radialLink)
+      .style('stroke', '#d6d6d6')
+      .style('fill', 'none')
+      .style('cursor', 'pointer')
       .style(
         'stroke-width',
         (d) => (d.target.height + 1) * (d.target.height + 1)
@@ -111,6 +114,8 @@ const drawHierarchy = (root) => {
       .append('circle')
       .attr('r', (d) => (d.height + 3) * 5)
       .style('fill', (d) => colorScale(d.height))
+      .style('stroke-linecap', 'round')
+      .style('stroke-linejoin', 'round')
       .style('stroke', (d) => (d.data.finished ? 'green' : 'grey'))
       .style('stroke-width', (d) => (d.data.finished ? '6px' : '1px'))
       .style('pointer-events', (d) => (d.data.finished ? 'all' : 'none'))
@@ -133,6 +138,8 @@ const drawHierarchy = (root) => {
           : `rotate(${-d.x}) translate(0,5)`
       )
       .style('text-anchor', (d) => (d.height != 0 ? 'middle' : 'start'))
-      .style('font-size', (d) => 14 + d.height * d.height);
+      .style('font-size', (d) => 14 + d.height * d.height)
+      .style('color', '#d6d6d6')
+      .style('pointer-events', 'none');
   }
 };
