@@ -1,0 +1,309 @@
+[
+  {
+    "name": "points",
+    "title": "1. Points",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Points ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "lines",
+    "title": "2. Lines",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Lines ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "polygons",
+    "title": "3. Polygons",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Polygons ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "hexagons",
+    "title": "4. Hexagons",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Hexagons ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "openstreetmap",
+    "title": "5. OpenStreetMap",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " OpenStreetMap ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "red",
+    "title": "6. Red",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Red ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "green",
+    "title": "7. Green",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Green ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "blue",
+    "title": "8. Blue",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Blue ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "monochrome",
+    "title": "9. Monochrome",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Monochrome ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "raster",
+    "title": "10. Raster",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Raster ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "3d",
+    "title": "11. 3D",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " 3D ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "population",
+    "title": "12. Population",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Population ",
+    "examples": ["https://twitter.com/MapNav_Tom/status/1192367466812526593"],
+    "finished": false
+  },
+  {
+    "name": "naturalearth",
+    "title": "13. Natural Earth",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Natural Earth ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "newtool",
+    "title": "14. Map with a new tool",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Map with a new tool ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "withoutcomp",
+    "title": "15. Map made without computer",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Map made without using a computer ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "urbanrural",
+    "title": "16. Urban/Rural",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Urban/Rural ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "land",
+    "title": "17. Land",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Land ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "water",
+    "title": "18. Water",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Water ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "islands",
+    "title": "19. Island(s)",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Island(s) ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "movement",
+    "title": "20. Movement",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Movement ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "elevation",
+    "title": "21. Elevation",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Elevation ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "boundaries",
+    "title": "22. Boundaries",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Boundaries ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "ghsl",
+    "title": "23. GHSL",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " GHSL ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "historical",
+    "title": "24. Historical",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Historical ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "interactive",
+    "title": "25. Interactive",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Interactive ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "choropleth",
+    "title": "26. Choropleth",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Choropleth ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "heatmap",
+    "title": "27. Heatmap",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Heatmap ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "earthnotflat",
+    "title": "28. The Earth is not flat",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " The Earth is not flat ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "null",
+    "title": "29. NULL",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " NULL ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "metamapping",
+    "title": "30. Metamapping day",
+    "type": "child",
+    "parent": "30-day-map-challenge-2021",
+    "icon": "",
+    "description": " Metamapping day ",
+    "examples": [],
+    "finished": false
+  },
+
+  {
+    "title": "30 Day Map Challenge 2021",
+    "type": "parent",
+    "name": "30-day-map-challenge-2021",
+    "description": " 2021 "
+  }
+]

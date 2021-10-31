@@ -1,0 +1,319 @@
+@charset 'UTF-8';
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+  box-shadow: inset 10px 10px 50px #000;
+  overflow: auto;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 940px) {
+  .centered {
+    max-width: 1100px;
+    float: none;
+  }
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+
+  font-family: "Oswald", sans-serif;
+  /* font-size: 20px; */
+  color: #2b2b2b;
+}
+
+.title p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #757575;
+  line-height: 120%;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (min-width: 850px) {
+  /* .content {
+    display: grid;
+
+    grid-template-columns: 6fr 1.2fr;
+    grid-template-rows: 473px 150px;
+    grid-gap: 0.5rem;
+  } */
+}
+
+svg.chart-group {
+  display: block;
+  margin: 0;
+
+  border: 1px solid #969696;
+  height: 800px;
+}
+
+.below {
+  margin-left: auto;
+  margin-right: auto;
+
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  flex-direction: column;
+  align-items: flex-end;
+  color: #838282;
+  font-size: 10px;
+}
+
+.below div {
+  display: block;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.grabbable {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+/* Apply a 'closed-hand' cursor during drag operation. */
+.grabbable:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.master line {
+  stroke: #444;
+}
+
+.master .node {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.master .link {
+  fill: none;
+  stroke: #d6d6d6;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
+.master text {
+  color: #d6d6d6;
+  pointer-events: none;
+}
+
+.master .node-labels {
+  user-select: none;
+  stroke-width: 3px;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+.master .labels {
+  font: 8px sans-serif;
+  text-anchor: middle;
+}
+
+.master .node-labels.hidden,
+.master .labels.hidden {
+  display: none;
+}
+
+.master .node--hover circle {
+  stroke: #000;
+  stroke-width: 1.2px;
+}
+
+.master circle {
+  stroke: #000;
+  stroke-width: 2px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.master circle:hover {
+  opacity: 1;
+}
+
+.tooltip {
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+  font-size: 0.8em;
+  font-family: "EB Garamond", serif;
+  max-width: 500px;
+  padding: 2rem;
+  position: absolute;
+  z-index: 1;
+  border-radius: 3px;
+  display: flex;
+  animation: slideIn forwards 0.1s ease-in-out 2;
+  animation-timing-function: cubic-bezier(0.01, 1.68, 0.58, 1);
+}
+.tooltip + .tooltip {
+  animation-delay: 0.55s;
+  .tooltip + .tooltip {
+    animation-delay: 0.6s;
+  }
+}
+.tooltip__text {
+  padding-right: 5px;
+  flex: 1;
+}
+.tooltip__remove {
+  background: none;
+  border: 0;
+  &:hover {
+    color: $yellow;
+  }
+}
+.tooltip:after {
+  content: "";
+  display: block;
+  background: white;
+  position: absolute;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  top: 8px;
+  left: 8px;
+  z-index: -1;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.tooltip p {
+  margin: 0;
+}
+
+.side-pannel {
+  z-index: 100;
+  font-size: 12px;
+  pointer-events: none;
+
+  position: absolute;
+  top: 0;
+}
+
+.side-pannel--left {
+  left: 10px;
+}
+
+.side-pannel--right {
+  right: 10px;
+}
+
+@media (max-width: 360px) {
+  .side-pannel--left {
+    left: 5px;
+  }
+
+  .side-pannel--right {
+    right: 0;
+  }
+}
+
+.control {
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: auto;
+  float: left;
+  clear: both;
+  position: relative;
+  z-index: 800;
+  pointer-events: visiblePainted;
+  pointer-events: auto;
+}
+
+.control a {
+  text-decoration: none;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: block;
+  height: 36px;
+  width: 50px;
+  line-height: 50px;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.control a:hover {
+  background-color: #f4f4f4;
+}
+
+.control-group a {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.control-group a:first-child {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.control-group a:last-child {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* http://alessioatzeni.com/metrize-icons/ */
+
+.play-icon {
+  background-image: url(../icons/play.svg);
+}
+
+.pause-icon {
+  background-image: url(../icons/pause.svg);
+}
+
+.hide {
+  position: absolute;
+  left: -9999px;
+}
