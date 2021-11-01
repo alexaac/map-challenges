@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="UTF-8" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#30DayMapChallenge Day 1. Points</title>
+
+    <meta property="og:title" content="#30DayMapChallenge Day 1. Points" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/points"
+    />
+    <meta property="og:description" content="#30DayMapChallenge on Twitter" />
+    <meta property="article:publisher" content="https://maptheclouds.com" />
+    <meta property="article:section" content="Graphic" />
+    <meta property="article:tag" content="Graphic" />
+    <meta
+      property="og:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/points/img/og_1400_900.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="900" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/points/img/og_1400_900.png"
+    />
+    <meta property="twitter:site" content="@maptheclouds" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="centered">
+        <div class="content">
+          <div class="title">
+            <h1>Populated Places on Earth</h1>
+            <div class="description">
+              <p>
+              The visualization below shows the populated places. The bigger the circle, the greater the population.
+              </p>
+              <p>Cities with a bigger rank are more brightly coloured.</p>
+            </div>
+          </div>
+          <div id="chart" class="chart-group grabbable">
+          </div>
+          <div class="aside">
+            <div id="legend"></div>
+          </div>
+          <div class="below">
+            <div>
+              <strong>Data: </strong> 
+              Natural Earth <br />
+            </div>
+            <div>
+              <strong>Graphic: </strong> @maptheclouds
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../js/d3.v5.min.js"></script>
+
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+    <script src="https://unpkg.com/versor"></script>
+    <script type="module" src="./js/main.js"></script>
+
+  </body>
+
+</html>

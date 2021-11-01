@@ -48,13 +48,18 @@
     <div class="wrapper">
       <div class="centered">
         <div class="content">
-          <div id="chart" class="chart-group grabbable master"></div>
+          <div id="chart" class="grabbable master">
+            <canvas id="canvas"></canvas>
+            <div id="chart-group"></div>
+        </div>
+
         </div>
       </div>
     </div>
 
     <script src="js/d3.v6.min.js"></script>
     <script src="js/d3-collection.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
     <script type="module" src="js/main.js"></script>
 
   </body>
