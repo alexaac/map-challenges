@@ -94,6 +94,22 @@ svg.chart-group {
   height: 800px;
 }
 
+.legend-grid-right {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* Extra small devices and small devices */
+  .legend-grid-right {
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
 .below {
   margin-left: auto;
   margin-right: auto;
