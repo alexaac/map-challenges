@@ -34,7 +34,9 @@ Promise.all(promises)
 
     // Set dimensions
     const padding = 10;
-    width = 800;
+
+    width = window.innerWidth;
+
     const getHeight = () => {
       const [[x0, y0], [x1, y1]] = d3
         .geoPath(projection.fitWidth(width, SPHERE))
@@ -115,7 +117,7 @@ const render = ({
   context.lineWidth = 1.5;
   context.fillStyle = '#000';
   context.beginPath(),
-    context.arc(400, 400, 400, 0, 2 * Math.PI),
+    context.arc(width / 2, width / 2, width / 2, 0, 2 * Math.PI),
     context.fill(),
     context.stroke();
 
