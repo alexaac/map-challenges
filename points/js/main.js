@@ -1,58 +1,63 @@
-import { quadtree } from 'https://cdn.skypack.dev/d3-quadtree@3';
+import {
+  formatNumber,
+  findCityAtMapClick,
+  drawLegend,
+  popScale,
+  colorScale,
+  drag,
+} from './helpers.js';
 
+/* Global variables */
+let context, width, height, selected;
 let transform = d3.zoomIdentity;
 
-let worldData, label, citiesData, earth, path;
+// Constants
+const PROJECTIONNAME = 'geoOrthographic';
+const SPHERE = { type: 'Sphere' };
 
-const projectionName = 'geoOrthographic';
-const projection = d3[projectionName]().precision(0.1);
+/* Map Legend */
+drawLegend();
 
-const sphere = { type: 'Sphere' };
-
-const padding = 10;
-
-const width = 800;
-const getHeight = () => {
-  const [[x0, y0], [x1, y1]] = d3
-    .geoPath(projection.fitWidth(width, sphere))
-    .bounds(sphere);
-
-  const dy = Math.ceil(y1 - y0),
-    l = Math.min(Math.ceil(x1 - x0), dy);
-
-  projection.scale((projection.scale() * (l - 1)) / l).precision(0.2);
-
-  return dy;
-};
-
-const height = getHeight();
-
-// Canvas context
-const context = d3
-  .select('#chart')
-  .append('canvas')
-  .attr('width', width)
-  .attr('height', height)
-  .style('cursor', 'pointer')
-  .node()
-  .getContext('2d');
-
-// Load data
+/* Load the data */
 const promises = [
-  d3.json('../data/ne_50m_land.json'),
-  d3.json('../data/ne_50m_geography_regions_points.geojson'),
+  d3.json('../data/ne_50m_admin_0_countries.json'),
   d3.json('data/ne_10m_populated_places_simple.geojson'),
 ];
 
 Promise.all(promises)
   .then((data) => {
-    worldData = data[0];
-    citiesData = data[2];
+    const countriesData = data[0];
+    const citiesData = data[1];
 
-    earth = topojson.feature(worldData, {
-      type: 'GeometryCollection',
-      geometries: worldData.objects['ne_50m_land'].geometries,
-    });
+    // Projection
+    const projection = d3[PROJECTIONNAME]().precision(0.1);
+
+    // Set dimensions
+    const padding = 10;
+    width = 800;
+    const getHeight = () => {
+      const [[x0, y0], [x1, y1]] = d3
+        .geoPath(projection.fitWidth(width, SPHERE))
+        .bounds(SPHERE);
+
+      const dy = Math.ceil(y1 - y0),
+        l = Math.min(Math.ceil(x1 - x0), dy);
+
+      projection.scale((projection.scale() * (l - 1)) / l).precision(0.2);
+
+      return dy;
+    };
+    height = getHeight();
+
+    /* Set canvas context */
+    context = d3
+      .select('#chart')
+      .append('canvas')
+      .attr('width', width)
+      .attr('height', height)
+      .style('cursor', 'pointer')
+      .node()
+      .getContext('2d');
 
     projection.fitExtent(
       [
@@ -62,142 +67,211 @@ Promise.all(promises)
       citiesData
     );
 
-    path = d3.geoPath(projection, context);
+    const path = d3.geoPath(projection, context);
 
-    drawGraph();
+    drawGraph(projection, path, countriesData, citiesData);
   })
   .catch((error) => console.log(error));
 
-const drawGraph = () => {
-  const graticule = d3.geoGraticule10();
+/* Render the canvas elements */
+const render = ({
+  projection,
+  path,
+  cityPath,
+  graticule,
+  graticulePath,
+  countries,
+  citiesData,
+}) => {
+  //Current transform properties
+  transform = (d3.event && d3.event.transform) || transform;
 
-  const popScale = d3
-    .scaleLinear()
-    .domain([-100, 623997, 2362000, 7243000, 19040000, 35676000])
-    // .domain(d3.extent(citiesData.features, (d) => d.properties.pop_max))
-    .range([1, 3, 4, 5, 7, 9]);
+  // City path
+  cityPath.pointRadius(
+    (d) => popScale(d.properties.pop_max) / (transform.k < 1 ? 1 : transform.k)
+  );
 
-  const colorScale = d3
-    .scaleLinear()
-    .domain([-100, 623997, 2362000, 7243000, 19040000, 35676000])
-    .range(['#6495ed', '#fff', '#fcff6c', '#ffb439', 'ffe96c', '#ff4039']);
+  // Clean
+  context.clearRect(0, 0, width, height);
 
-  const graticulePath = d3.geoPath(projection, context);
-  const cityPath = d3.geoPath(projection, context);
+  // Save
+  context.save();
 
-  function render() {
-    transform = (d3.event && d3.event.transform) || transform;
+  // Move to current zoom
+  context.translate(transform.x, transform.y);
+  context.scale(transform.k, transform.k);
 
-    cityPath.pointRadius(
-      (d) =>
-        popScale(d.properties.pop_max) / (transform.k < 1 ? 1 : transform.k)
+  // // Background
+  // context.fillStyle = '#000';
+  // context.fillRect(0, 0, width, height);
+
+  // Sphere fill
+  context.beginPath(),
+    path(SPHERE),
+    (context.fillStyle = '#000'),
+    context.fill();
+
+  // Draw the Sea
+  context.lineWidth = 1.5;
+  context.fillStyle = '#000';
+  context.beginPath(),
+    context.arc(400, 400, 400, 0, 2 * Math.PI),
+    context.fill(),
+    context.stroke();
+
+  // Draw the Graticule
+  context.lineWidth = 1 / (transform.k < 1 ? 1 : transform.k);
+  context.beginPath(),
+    graticulePath(graticule),
+    (context.strokeStyle = '#023333'),
+    context.stroke();
+
+  // Draw the countries
+  context.lineWidth = 0.35 / (transform.k < 1 ? 1 : transform.k);
+  context.fillStyle = '#1e2b42';
+  context.strokeStyle = '#164db3';
+  context.beginPath(), path(countries), context.fill(), context.stroke();
+
+  // Draw the cities
+  citiesData.features.forEach((city) => {
+    context.beginPath();
+
+    cityPath(city);
+
+    context.lineWidth = 0.5 / (transform.k < 1 ? 1 : transform.k);
+    context.strokeStyle = '#000';
+    context.stroke();
+
+    context.fillStyle = colorScale(city.properties.pop_max);
+    context.fill();
+  });
+
+  // Sphere boundary
+  context.lineWidth = 0.35 / (transform.k < 1 ? 1 : transform.k);
+  context.beginPath(), path(SPHERE), context.stroke();
+
+  // Highlight selected city
+  if (selected && transform.k === 1) {
+    // city
+    context.beginPath();
+
+    cityPath(selected);
+
+    context.fillStyle = '#00ffff';
+
+    context.fill();
+
+    // label
+    context.beginPath();
+
+    context.font = 'bold 12px serif';
+
+    const labelXY = projection(selected.geometry.coordinates);
+    const labelOffset = 10;
+    const name = `${selected.properties.name}, ${
+      selected.properties.adm0name
+    } - ${formatNumber(selected.properties.pop_max)}`;
+
+    context.lineWidth = 4 / (transform.k < 1 ? 1 : transform.k);
+    context.lineJoin = 'round';
+    context.strokeText(
+      name,
+      labelXY[0] + labelOffset,
+      labelXY[1] - labelOffset
     );
-
-    context.clearRect(0, 0, width, height);
-
-    context.save();
-    context.translate(transform.x, transform.y);
-    context.scale(transform.k, transform.k);
-
-    // context.fillStyle = '#000';
-    // context.fillRect(0, 0, width, height);
-
-    // sphere fill
-    context.beginPath(),
-      path(sphere),
-      (context.fillStyle = '#000'),
-      context.fill();
-
-    // draw the Sea
-    context.lineWidth = 1.5;
-    context.fillStyle = '#000';
-    context.beginPath(),
-      context.arc(400, 400, 400, 0, 2 * Math.PI),
-      context.fill(),
-      context.stroke();
-
-    // graticule
-    context.lineWidth = 1 / (transform.k < 1 ? 1 : transform.k);
-    context.beginPath(),
-      graticulePath(graticule),
-      (context.strokeStyle = '#023333'),
-      context.stroke();
-
-    // draw the Land
-    context.lineWidth = 0.35;
-    context.fillStyle = '#1e2b42';
-    context.beginPath(), path(earth), context.fill(), context.stroke();
-
-    // cities
-    citiesData.features.forEach((city) => {
-      context.beginPath();
-
-      cityPath(city);
-
-      context.fillStyle = colorScale(city.properties.pop_max);
-
-      context.fill();
-    });
-
-    // sphere boundary
-    context.beginPath(), path(sphere), context.stroke();
-
-    // current label
-
-    if (label && transform.k === 1) {
-      // city
-      context.beginPath();
-
-      cityPath(label);
-
-      context.fillStyle = 'cyan';
-
-      context.fill();
-
-      // label
-      context.beginPath();
-
-      const labelXY = projection(label.geometry.coordinates);
-      const labelOffset = 10;
-      const name = `${label.properties.name}, ${label.properties.adm0name}`;
-      // const name = `${label.properties.name}, ${label.properties.adm0name} - pop ${label.properties.pop_max}`;
-
-      context.fillStyle = 'cyan';
-      context.lineWidth = 2 / (transform.k < 1 ? 1 : transform.k);
-      context.lineJoin = 'round';
-      context.strokeText(
-        name,
-        labelXY[0] + labelOffset,
-        labelXY[1] - labelOffset
-      );
-      context.globalCompositeOperation = 'source-over';
-      context.fillText(
-        name,
-        labelXY[0] + labelOffset,
-        labelXY[1] - labelOffset
-      );
-    }
-
-    context.restore();
+    context.globalCompositeOperation = 'source-over';
+    context.fillText(name, labelXY[0] + labelOffset, labelXY[1] - labelOffset);
   }
+
+  // Restore
+  context.restore();
+};
+
+/* Rotate and center map to the selected city */
+const transition = (p, renderArgs) => {
+  // Mutates projection
+  const {
+    projection,
+    path,
+    cityPath,
+    graticule,
+    graticulePath,
+    countries,
+    citiesData,
+  } = renderArgs;
+
+  d3.transition()
+    .duration(850)
+    .tween('rotate', function () {
+      var r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
+
+      return function (t) {
+        projection.rotate(r(t));
+
+        projection.clipAngle(180);
+
+        projection.clipAngle(90);
+
+        render({
+          projection,
+          path,
+          cityPath,
+          graticule,
+          graticulePath,
+          countries,
+          citiesData,
+        });
+      };
+    })
+    .transition();
+};
+
+/* Render geometries and set mouse and zoom actions */
+const drawGraph = (projection, path, countriesData, citiesData) => {
+  const cityPath = d3.geoPath(projection, context);
+  const graticule = d3.geoGraticule10();
+  const graticulePath = d3.geoPath(projection, context);
+  const countries = topojson.feature(countriesData, {
+    type: 'GeometryCollection',
+    geometries: countriesData.objects['ne_50m_admin_0_countries'].geometries,
+  });
+
+  const renderArgs = {
+    projection,
+    path,
+    cityPath,
+    graticule,
+    graticulePath,
+    countries,
+    citiesData,
+  };
 
   d3.select(context.canvas)
     .call(
       drag(projection)
-        .on('start.render', onMapClick)
-        .on('drag.render', () => render())
-        .on('end.render', () => render())
+        .on('start.render', mapClick)
+        .on('drag.render', () => render(renderArgs))
+        .on('end.render', () => render(renderArgs))
     )
-    .call(() => render());
+    .call(() => render(renderArgs));
 
-  let zoom = d3
-    .zoom()
-    .scaleExtent([0.1, 15])
-    .on('zoom', () => render());
+  // // d3.zoom - TODO remove at some point
+  // let zoom = d3
+  //   .zoom()
+  //   .scaleExtent([0.1, 15])
+  //   .on('zoom', () => render(projection));
+  // d3.select(context.canvas).call(zoom);
+  // d3.select(context.canvas).call(zoom.scaleTo, 2);
 
-  d3.select(context.canvas).call(zoom);
+  // Use d3.geoZoom to zoom
+  d3
+    .geoZoom()
+    .projection(projection)
+    .onMove(() => render(renderArgs))(context.canvas);
 
-  function onMapClick() {
+  /* Get coordinates at mouse click, transform them into 
+     geographic coordinates and search nearest cities */
+  function mapClick() {
     // Can't apply transformations unless scale 1
     if (transform.k !== 1) return;
 
@@ -208,97 +282,13 @@ const drawGraph = () => {
       return false;
     }
 
-    showLabel(mousePos);
-  }
+    const city = findCityAtMapClick(mousePos, width, height, renderArgs);
 
-  const showLabel = (mousePos) => {
-    const tree = quadtree()
-      .extent([
-        [-1, -1],
-        [width + 1, height + 1],
-      ])
-      .x((d) => d.geometry.coordinates[0])
-      .y((d) => d.geometry.coordinates[1])
-      .addAll(citiesData.features);
+    if (city) {
+      selected = city;
 
-    const found = search(tree, mousePos);
-
-    if (found[0]) {
-      label = found[0];
-
-      transition(found[0].geometry.coordinates);
-      // d3.select(context.canvas).call(zoom.scaleTo, 2);
+      // Mutates projection - TODO try to use pure functions
+      transition(city.geometry.coordinates, renderArgs);
     }
-  };
-
-  function search(quadtree, mousePos) {
-    const [xmin, xmax, ymin, ymax] = [
-      projection.invert([mousePos[0], mousePos[1]])[0] - 0.5,
-      projection.invert([mousePos[0], mousePos[1]])[0] + 0.5,
-      projection.invert([mousePos[0], mousePos[1]])[1] - 0.5,
-      projection.invert([mousePos[0], mousePos[1]])[1] + 0.5,
-    ];
-
-    const results = [];
-    quadtree.visit((node, x1, y1, x2, y2) => {
-      if (!node.length) {
-        do {
-          let d = node.data;
-
-          if (
-            d.geometry.coordinates[0] >= xmin &&
-            d.geometry.coordinates[0] < xmax &&
-            d.geometry.coordinates[1] >= ymin &&
-            d.geometry.coordinates[1] < ymax
-          ) {
-            results.push(d);
-          }
-        } while ((node = node.next));
-      }
-      return x1 >= xmax || y1 >= ymax || x2 < xmin || y2 < ymin;
-    });
-
-    return results;
-  }
-
-  function transition(p) {
-    d3.transition()
-      .duration(850)
-      .tween('rotate', function () {
-        var r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
-
-        return function (t) {
-          projection.rotate(r(t));
-
-          projection.clipAngle(180);
-
-          projection.clipAngle(90);
-
-          render();
-        };
-      })
-      .transition();
-  }
-
-  function drag(projection) {
-    let v0, q0, r0;
-
-    function dragstarted() {
-      v0 = versor.cartesian(projection.invert([d3.event.x, d3.event.y]));
-
-      q0 = versor((r0 = projection.rotate()));
-    }
-
-    function dragged() {
-      const v1 = versor.cartesian(
-        projection.rotate(r0).invert([d3.event.x, d3.event.y])
-      );
-
-      const q1 = versor.multiply(q0, versor.delta(v0, v1));
-
-      projection.rotate(versor.rotation(q1));
-    }
-
-    return d3.drag().on('start', dragstarted).on('drag', dragged);
   }
 };
