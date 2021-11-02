@@ -1,0 +1,14 @@
+#tooltip {
+  pointer-events: none;
+}
+#tooltip rect {
+  fill: white;
+  fill-opacity: 0.7;
+  stroke: black;
+  stroke-width: 0.5;
+}
+#tooltip text {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 12px;
+  text-anchor: middle;
+}

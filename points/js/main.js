@@ -34,7 +34,8 @@ Promise.all(promises)
 
     // Set dimensions
     const padding = 10;
-    width = 800;
+    width =
+      window.innerWidth <= 360 ? 300 : window.innerWidth <= 960 ? 600 : 800;
     const getHeight = () => {
       const [[x0, y0], [x1, y1]] = d3
         .geoPath(projection.fitWidth(width, SPHERE))
@@ -111,13 +112,13 @@ const render = ({
     (context.fillStyle = '#000'),
     context.fill();
 
-  // Draw the Sea
-  context.lineWidth = 1.5;
-  context.fillStyle = '#000';
-  context.beginPath(),
-    context.arc(400, 400, 400, 0, 2 * Math.PI),
-    context.fill(),
-    context.stroke();
+  // // Draw the Sea
+  // context.lineWidth = 1.5;
+  // context.fillStyle = '#000';
+  // context.beginPath(),
+  //   context.arc(400, 400, 400, 0, 2 * Math.PI),
+  //   context.fill(),
+  //   context.stroke();
 
   // Draw the Graticule
   context.lineWidth = 1 / (transform.k < 1 ? 1 : transform.k);
