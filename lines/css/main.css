@@ -1,0 +1,53 @@
+.sky {
+  padding: 0.5rem;
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    ellipse at 91% 15%,
+    #67afee 0%,
+    #158fc2 25%,
+    #288ce2 50%,
+    #096cc4 75%,
+    #1262ad 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    ellipse at 91% 15%,
+    #67afee 0%,
+    #158fc2 25%,
+    #288ce2 50%,
+    #096cc4 75%,
+    #1262ad 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    ellipse at 91% 15%,
+    #67afee 0%,
+    #158fc2 25%,
+    #288ce2 50%,
+    #096cc4 75%,
+    #1262ad 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    ellipse at 91% 15%,
+    #67afee 0%,
+    #158fc2 25%,
+    #288ce2 50%,
+    #096cc4 75%,
+    #1262ad 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    ellipse at 91% 15%,
+    #67afee 0%,
+    #158fc2 25%,
+    #288ce2 50%,
+    #096cc4 75%,
+    #1262ad 100%
+  );
+}
