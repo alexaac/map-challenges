@@ -27,7 +27,7 @@
     "icon": "",
     "description": " Polygons ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "hexagons",
