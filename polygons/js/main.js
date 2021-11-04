@@ -1,3 +1,5 @@
+// TODO: Add seamless zoom, create print layout
+
 /* Global variables */
 const width =
     window.innerWidth <= 560 ? 400 : window.innerWidth <= 960 ? 800 : 1100,

@@ -1,3 +1,6 @@
+// TODO: Create tiles and zoom level details
+// TODO: Create tiles and zoom level details
+
 import { drag } from './helpers.js';
 
 /* Global variables */

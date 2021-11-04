@@ -1,3 +1,6 @@
+// TODO: Create tiles and zoom level details
+// TODO: Add popup on hover
+
 import {
   formatNumber,
   findCityAtMapClick,
