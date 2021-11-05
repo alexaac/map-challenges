@@ -39,9 +39,8 @@
     <script src="./threejs/three.min.js"></script>
     <script src="./threejs/OrbitControls.js"></script>
     <script src="./threejs/ViewHelper.js"></script>
+    <script src="./proj4js/proj4.js"></script>
     <script src="./Qgis2threejs.js"></script>
-
-
 
   </head>
 
@@ -166,7 +165,8 @@
 
     <script>
       Q3D.Config.allVisible = true;
-      
+      Q3D.Config.coord.latlon = true;
+      Q3D.Config.localMode = true;
       if (typeof proj4 === "undefined") document.getElementById("lib_proj4js").style.display = "none";
       
       var container = document.getElementById("view"),
@@ -175,7 +175,7 @@
       app.init(container);       // initialize viewer
       
       // load the scene
-      app.loadSceneFile("./data/index/scene.json", function (scene) {
+      app.loadSceneFile("./data/index/scene.js", function (scene) {
         // scene file has been loaded
         app.start();
       }, function (scene) {
