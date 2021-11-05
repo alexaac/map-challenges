@@ -1,0 +1,59 @@
+.node:hover {
+  stroke: cyan;
+  background-color: cyan;
+  opacity: 1;
+}
+
+.tooltip img {
+  float: left;
+  padding: 10px;
+}
+
+.tooltip {
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+  font-size: 0.8em;
+  font-family: 'EB Garamond', serif;
+  max-width: 500px;
+  padding: 2rem;
+  position: absolute;
+  z-index: 1;
+  border-radius: 3px;
+  display: flex;
+  animation: slideIn forwards 0.1s ease-in-out 2;
+  animation-timing-function: cubic-bezier(0.01, 1.68, 0.58, 1);
+}
+.tooltip + .tooltip {
+  animation-delay: 0.55s;
+  .tooltip + .tooltip {
+    animation-delay: 0.6s;
+  }
+}
+.tooltip__text {
+  padding-right: 5px;
+  flex: 1;
+}
+.tooltip__remove {
+  background: none;
+  border: 0;
+  &:hover {
+    color: $yellow;
+  }
+}
+.tooltip:after {
+  content: '';
+  display: block;
+  background: white;
+  position: absolute;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  top: 8px;
+  left: 8px;
+  z-index: -1;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.tooltip p {
+  margin: 0;
+}

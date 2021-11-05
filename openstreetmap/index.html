@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="UTF-8" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#30DayMapChallenge Day 5. Data challenge 1: OpenStreetMap</title>
+
+    <meta property="og:title" content="#30DayMapChallenge Day 5. Data challenge 1: OpenStreetMap" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/openstreetmap"
+    />
+    <meta property="og:description" content="#30DayMapChallenge on Twitter" />
+    <meta property="article:publisher" content="https://maptheclouds.com" />
+    <meta property="article:section" content="Graphic" />
+    <meta property="article:tag" content="Graphic" />
+    <meta
+      property="og:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/openstreetmap/img/og_1400_900.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="900" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/openstreetmap/img/og_1400_900.png"
+    />
+    <meta property="twitter:site" content="@maptheclouds" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="centered">
+        <div class="content">
+          <div class="title">
+            <h1>#30DayMapChallenge Day 5. Data challenge 1: OpenStreetMap</h1>
+            <h2>Clickable Bubbles 🗺️</h2>
+            <div class="description">
+              <p>
+                The visualization below shows nodes from the OpenStreetMap data for a selected zone.
+              </p>
+            </div>
+          </div>
+          <div class="legend-grid-right">
+            <div id="chart" class="chart-group grabbable">
+            </div>
+            <div class="aside">
+              <div id="legend"></div>
+            </div>
+          </div>
+          <div class="below">
+            <div>
+              <strong>Data: </strong> 
+              <a href="https://www.openstreetmap.org">OpenStreetMap</a> <br />
+              
+            </div>
+            <div>
+              <strong>Graphic: </strong> @maptheclouds
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/d3.v6.min.js"></script>
+    <script src="../js/topojson.v2.min.js"></script>
+    <script src="../js/d3-tile@1.js"></script>
+    <script src="https://unpkg.com/osmtogeojson@2.2.12/osmtogeojson.js"></script>
+    <script src="https://unpkg.com/d3-geo-scale-bar@1.1.1/build/d3-geo-scale-bar.min.js"></script>
+
+    <script type="module" src="./js/main.js"></script>
+
+  </body>
+
+</html>

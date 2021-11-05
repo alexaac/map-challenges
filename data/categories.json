@@ -47,7 +47,7 @@
     "icon": "",
     "description": " OpenStreetMap ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "red",
