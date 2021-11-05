@@ -6,6 +6,17 @@
 
 https://maptheclouds.com/playground/30-day-map-challenge/
 
+### Project Setup
+
+1. clone the Project - `git clone https://github.com/alexaac/map-challenges.git`
+2. open the project folder - `cd map-challenges`
+
+Serve html using a server or simply open the index.html file
+
+1. 3.0 update node to 16 if older version - `nvm use 16`
+2. install a simple static [http server](https://github.com/http-party/http-server) - `npm install http-server`
+3. start the project on localhost:8077 - `http-server -a localhost -p 8077 -o --cors`
+
 ### Description
 
 Create a map each day of the month and publish it on Twitter using the hashtag #30DayMapChallenge.
