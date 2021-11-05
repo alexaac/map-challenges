@@ -7,3 +7,4 @@
 *.gif binary
 *.mp4 binary
 *.bin binary
+*.json binary
