@@ -1,0 +1,25 @@
+#before,
+#after,
+#sync {
+  width: 600px;
+  height: 600px;
+}
+#before,
+#after {
+  float: left;
+}
+#sync {
+  margin-left: 1rem;
+  float: right;
+}
+
+.maps-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.centered {
+  max-width: 1400px;
+  float: none;
+}
