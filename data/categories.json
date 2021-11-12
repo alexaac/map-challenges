@@ -77,7 +77,7 @@
     "icon": "",
     "description": " Blue ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "monochrome",
@@ -107,7 +107,7 @@
     "icon": "",
     "description": " 3D ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "population",
