@@ -4,7 +4,7 @@
 
 ### Title
 
-Blue scale
+Blue scale 🔷
 
 ### Demo
 
@@ -12,7 +12,7 @@ Blue scale
 
 ### Description
 
-Nice blue color scale 🔷 A section of Glen Canyon (Utah and Arizona), and a zone in North Canada.
+Nice blue color scale. A section of Glen Canyon (Utah and Arizona), and a zone in North Canada.
 
 ### Data sources
 
