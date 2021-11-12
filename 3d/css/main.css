@@ -1,0 +1,17 @@
+.centered {
+  max-width: 100%;
+}
+
+.content {
+  padding: initial;
+}
+
+.title {
+  padding: 1em;
+}
+
+#footer {
+  position: absolute;
+  left: 95px;
+  bottom: 5px;
+}
