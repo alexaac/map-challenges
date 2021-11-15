@@ -12,7 +12,7 @@ Time Zones 🌍
 
 ### Description
 
-Country parts are coloured by 6 hour time zone.
+Country parts are colored by groups of 6 time zones.
 
 ### Data sources
 
