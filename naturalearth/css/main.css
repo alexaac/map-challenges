@@ -1,0 +1,16 @@
+.mps-inline-block {
+}
+
+.post-img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.centered {
+  max-width: 1400px;
+}
+
+.wide {
+  max-width: 100%;
+}

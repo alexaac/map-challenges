@@ -127,7 +127,7 @@
     "icon": "",
     "description": " Natural Earth ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "newtool",
@@ -277,7 +277,7 @@
     "icon": "",
     "description": " The Earth is not flat ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "null",
