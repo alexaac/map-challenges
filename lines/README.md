@@ -20,6 +20,11 @@ Streams are coloured by their flow order.
 
 [OpenTopography](https://portal.opentopography.org/)
 
+### Inspiration
+
+https://observablehq.com/@jipexu/chinese-rivers
+https://www.youtube.com/watch?v=xwiHQlmEEjw
+
 ### TODO
 
 Create tiles and zoom level details

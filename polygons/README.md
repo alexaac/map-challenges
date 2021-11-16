@@ -20,6 +20,11 @@ The visualization shows the Timișoara historical center, România.
 
 [Nextzen](https://nextzen.org)
 
+### Inspiration
+
+https://osmbuildings.org/documentation/data/
+https://www.nextzen.org/
+
 ### TODO
 
 Add seamless zoom, create print layout

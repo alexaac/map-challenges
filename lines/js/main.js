@@ -1,5 +1,4 @@
 // TODO: Create tiles and zoom level details
-// TODO: Create tiles and zoom level details
 
 import { drag } from './helpers.js';
 
@@ -8,8 +7,22 @@ const padding = 10;
 const width =
     window.innerWidth <= 360 ? 300 : window.innerWidth <= 960 ? 600 : 800,
   height = width;
-let context, colorScale;
+let context, colorScale, rivers;
 let transform = d3.zoomIdentity;
+
+// Color scale
+colorScale = d3
+  .scaleQuantile()
+  .domain([0, 1, 2, 3, 4, 5, 6, 7])
+  .range([
+    '#1b251d',
+    '#403310',
+    '#8e6035',
+    '#99700a',
+    '#ad8a38',
+    '#be903b',
+    '#feef8b',
+  ]);
 
 /* Map Legend */
 const drawLegend = (rivers) => {
@@ -77,9 +90,9 @@ const drawLegend = (rivers) => {
     .attr('class', 'map-legend')
     .attr('transform', `translate(20, 30)`);
 
-  const orderValues = [
-    ...Array(d3.max(rivers.features, (d) => d.properties.ORDER)).keys(),
-  ];
+  const orderValues = rivers
+    ? [...Array(d3.max(rivers.features, (d) => d.properties.ORDER)).keys()]
+    : [0, 1, 2, 3, 4, 5, 6, 7];
 
   riversLegend
     .selectAll('circle')
@@ -102,6 +115,9 @@ const drawLegend = (rivers) => {
     .html((d) => d);
 };
 
+// Let sample legend for now, until faster rendering
+drawLegend(rivers);
+
 /* Load the data */
 const promises = [
   d3.json('https://maptheclouds.com/data/rivers_channels_basin4326.geojson'),
@@ -109,7 +125,11 @@ const promises = [
 
 Promise.all(promises)
   .then(([rivers]) => {
-    drawGraph(rivers);
+    // Legend
+    drawLegend(rivers);
+
+    // Let sample image for now, until faster rendering
+    // drawGraph(rivers);
   })
   .catch((error) => console.log(error));
 
@@ -176,9 +196,6 @@ const drawGraph = (rivers) => {
       '#feef8b',
     ]);
 
-  // Legend
-  drawLegend(rivers);
-
   // Projection
   const projection = d3.geoMercator().fitSize([width, width], rivers);
 
@@ -221,6 +238,6 @@ const drawGraph = (rivers) => {
     .scaleExtent([0.1, 15])
     .on('zoom', () => render(renderArgs));
 
-  d3.select(context.canvas).call(zoom);
+  // d3.select(context.canvas).call(zoom);
   d3.select(context.canvas).call(zoom.scaleTo, 6);
 };

@@ -6,7 +6,10 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Points ",
-    "examples": [],
+    "examples": [
+      "https://stackoverflow.com/questions/15907171/d3-canvas-globe-mouse-events",
+      "https://observablehq.com/@alainro/can-quadtree-speed-up-zoom-of-many-points-on-a-canvas"
+    ],
     "finished": true
   },
   {
@@ -16,7 +19,10 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Lines ",
-    "examples": [],
+    "examples": [
+      "https://observablehq.com/@jipexu/chinese-rivers",
+      "https://www.youtube.com/watch?v=xwiHQlmEEjw"
+    ],
     "finished": true
   },
   {
@@ -26,7 +32,10 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Polygons ",
-    "examples": [],
+    "examples": [
+      "https://osmbuildings.org/documentation/data/",
+      "https://www.nextzen.org/"
+    ],
     "finished": true
   },
   {
@@ -36,7 +45,12 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Hexagons ",
-    "examples": [],
+    "examples": [
+      "https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html",
+      "https://qgis2threejs.readthedocs.io/en/docs/",
+      "https://medium.com/the-pointscene-diaries/creating-3d-map-in-qgis-690f3d40beb1",
+      "https://bnhr.xyz/2017/07/28/foss4g-how-to-get-zonal-statistics-in-qgis-and-grass-using-a-polygon-layer-as-zones.html"
+    ],
     "finished": true
   },
   {
@@ -46,7 +60,13 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " OpenStreetMap ",
-    "examples": [],
+    "examples": [
+      "https://overpass-turbo.eu/",
+      "https://codesandbox.io/examples/package/query-overpass",
+      "https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#By_exact_name_and_rough_location",
+      "https://wiki.openstreetmap.org/wiki/Overpass_turbo#Map",
+      "https://observablehq.com/@d3/raster-tiles"
+    ],
     "finished": true
   },
   {
@@ -56,7 +76,11 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Red ",
-    "examples": [],
+    "examples": [
+      "https://emergency.copernicus.eu/mapping/ems-product-component/EMSR546_AOI01_GRA_MONIT47_r1_VECTORS/1",
+      "https://www.openstreetmap.org/relation/1464825#map=14/28.5943/-17.9025",
+      "https://cloud.maptiler.com/maps/"
+    ],
     "finished": true
   },
   {
@@ -66,7 +90,14 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Green ",
-    "examples": [],
+    "examples": [
+      "https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/DatasetDescription_PALSAR2_Mosaic_FNF_revH.pdf",
+      "https://www.eorc.jaxa.jp/ALOS/en/dataset/lulc/lulc_v2103_e.htm",
+      "https://github.com/renelikestacos/Web-Mapping-Leaflet-NodeJS-Tutorials",
+      "https://github.com/apal21/Leaflet-Before-After-Map-Comparison-Slider",
+      "https://github.com/jieter/Leaflet.Sync",
+      "http://zevross.com/blog/2014/08/12/add-a-before-after-map-slider-to-a-leaflet-map/"
+    ],
     "finished": true
   },
   {
@@ -76,7 +107,11 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Blue ",
-    "examples": [],
+    "examples": [
+      "https://www.sciencebase.gov/catalog/item/5c79a462e4b0fe48cb5144dc",
+      "https://search.open.canada.ca/openmap/957782bf-847c-4644-a757-e383c0057995",
+      "https://scihub.copernicus.eu/dhus/odata/v1/Products('7d55d260-e019-4658-abb2-46b5f83921cc')/Products('Quicklook')/$value"
+    ],
     "finished": true
   },
   {
@@ -87,7 +122,7 @@
     "icon": "",
     "description": " Monochrome ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "raster",
@@ -96,7 +131,13 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Raster ",
-    "examples": [],
+    "examples": [
+      "https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/data/2020/map.htm",
+      "https://scihub.copernicus.eu/dhus/#/home",
+      "http://step.esa.int/main/doc/tutorials/snap-tutorials/",
+      "http://step.esa.int/main/toolboxes/snap/",
+      "https://eo-college.org/courses/echoes-in-space/"
+    ],
     "finished": true
   },
   {
@@ -106,7 +147,14 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " 3D ",
-    "examples": [],
+    "examples": [
+      "https://portal.opentopography.org/",
+      "https://earthexplorer.usgs.gov/metadata/15920/2770976/",
+      "https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html",
+      "https://qgis2threejs.readthedocs.io/en/docs/",
+      "https://medium.com/the-pointscene-diaries/creating-3d-map-in-qgis-690f3d40beb1",
+      "https://blog.maptheclouds.com/learning/lidar-pdal-experiments-yosemite-valley"
+    ],
     "finished": true
   },
   {
@@ -117,7 +165,7 @@
     "icon": "",
     "description": " Population ",
     "examples": ["https://twitter.com/MapNav_Tom/status/1192367466812526593"],
-    "finished": false
+    "finished": true
   },
   {
     "name": "naturalearth",
@@ -126,7 +174,12 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " Natural Earth ",
-    "examples": [],
+    "examples": [
+      "https://www.naturalearthdata.com/downloads/",
+      "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/timezones/",
+      "https://www.pinterest.com/pin/417286721719769179/",
+      "https://www.visualcinnamon.com/portfolio/solar-noon/"
+    ],
     "finished": true
   },
   {
@@ -276,7 +329,13 @@
     "parent": "30-day-map-challenge",
     "icon": "",
     "description": " The Earth is not flat ",
-    "examples": [],
+    "examples": [
+      "https://www.naturalearthdata.com/downloads/",
+      "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/timezones/",
+      "https://www.pinterest.com/pin/417286721719769179/",
+      "https://www.pinterest.com/pin/417286721719769179/",
+      "https://www.visualcinnamon.com/portfolio/solar-noon/"
+    ],
     "finished": true
   },
   {

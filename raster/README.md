@@ -21,6 +21,12 @@ Navigation is sinchronised. Cluj-Napoca zone.
 [JAXA PALSAR-2](https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/data/2020/map.htm)
 [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home)
 
+### Inspiration
+
+http://step.esa.int/main/doc/tutorials/snap-tutorials/
+http://step.esa.int/main/toolboxes/snap/
+https://eo-college.org/courses/echoes-in-space/
+
 ### TODO
 
 TODO

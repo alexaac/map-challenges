@@ -16,9 +16,16 @@ desc
 
 ### Data sources
 
-[OSM Buildings](https://osmbuildings.org)
+[OpenTopography](https://portal.opentopography.org)
 
-[Nextzen](https://nextzen.org)
+[NAIP aerial data](https://earthexplorer.usgs.gov/metadata/15920/2770976/)
+
+### Inspiration
+
+https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html
+https://qgis2threejs.readthedocs.io/en/docs/
+https://medium.com/the-pointscene-diaries/creating-3d-map-in-qgis-690f3d40beb1
+https://blog.maptheclouds.com/learning/lidar-pdal-experiments-yosemite-valley
 
 ### TODO
 

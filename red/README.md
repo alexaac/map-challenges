@@ -20,6 +20,11 @@ The results of the volcanic eruptions since 11 September 2021 in La Palma (Cumbr
 [OpenStreetMap](https://www.openstreetmap.org)
 [MapTiler](https://cloud.maptiler.com/tiles/)
 
+### Inspiration
+
+https://www.openstreetmap.org/relation/1464825#map=14/28.5943/-17.9025
+https://cloud.maptiler.com/maps/
+
 ### TODO
 
 Move to web, Blender clouds, Threejs scene, srcset check
