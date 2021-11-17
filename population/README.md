@@ -23,6 +23,7 @@ Higher bars represent cities with greater population.
 ### Inspiration
 
 https://github.com/looeee/discoverthreejs-site
+
 https://observablehq.com/@sdl60660/threejs-3d-globe-earthquake-plot
 
 ### TODO
