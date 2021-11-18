@@ -4,7 +4,7 @@
 
 ### Title
 
-title
+Yosemite Valley ⛰️⛰️
 
 ### Demo
 
@@ -12,7 +12,7 @@ title
 
 ### Description
 
-desc
+The 3D Nose (El Capitan), The Dome & Co.
 
 ### Data sources
 
@@ -23,8 +23,11 @@ desc
 ### Inspiration
 
 https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html
+
 https://qgis2threejs.readthedocs.io/en/docs/
+
 https://medium.com/the-pointscene-diaries/creating-3d-map-in-qgis-690f3d40beb1
+
 https://blog.maptheclouds.com/learning/lidar-pdal-experiments-yosemite-valley
 
 ### TODO

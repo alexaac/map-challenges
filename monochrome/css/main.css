@@ -1,0 +1,28 @@
+.chart-group {
+  background-image: url(../img/still_tablet.png);
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .chart-group {
+    background-image: url(../img/still_mobile.png);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  /* Medium devices (tablets, $tablet and up) */
+  .chart-group {
+    background-image: url(../img/still_tablet.png);
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large devices (desktops, $desktop and up) */
+  .chart-group {
+    background-image: url(../img/still_desktop.png);
+  }
+}
+
+.centered {
+  max-width: 1000px;
+}
