@@ -14,17 +14,25 @@ let renderer;
 let scene;
 
 class World {
-  constructor(container) {
-    camera = createCamera();
+  constructor(
+    { containerId, autoRotate, autoRotateSpeed } = {
+      containerId: 'chart',
+      autoRotate: true,
+      autoRotateSpeed: 15,
+    }
+  ) {
+    // Get a reference to the container element
+    const container = document.getElementById(containerId);
 
+    camera = createCamera();
     renderer = createRenderer();
     scene = createScene();
 
     container.append(renderer.domElement);
 
     controls = createControls(camera, renderer.domElement);
-    controls.autoRotate = true;
-    controls.autoRotateSpeed = 15;
+    controls.autoRotate = autoRotate;
+    controls.autoRotateSpeed = autoRotateSpeed;
 
     const { ambientLight, hemisphereLight, dirLight } = createLights();
 
