@@ -1,5 +1,17 @@
 @charset 'UTF-8';
 
+:root {
+  --x-small: 576px !default;
+  --small: 768px !default;
+  --medium: 992px !default;
+  --large: 1200px !default;
+  --x-large: 1440px !default;
+
+  --mobile: --x-small !default;
+  --tablet: --small !default;
+  --desktop: --medium !default;
+}
+
 html {
   box-sizing: border-box;
 }
