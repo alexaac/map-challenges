@@ -1,0 +1,33 @@
+.chart-group {
+  width: 1100px;
+  height: 900px;
+  color: #e6004d;
+}
+
+@media (max-width: 576px) {
+  .chart-group {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Medium devices (tablets, $tablet and up) */
+  .chart-group {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Medium devices (tablets, $tablet and up) */
+  .chart-group {
+    width: 800px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large devices (desktops, $desktop and up) */
+  .chart-group {
+    width: 1100px;
+  }
+}

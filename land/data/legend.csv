@@ -1,0 +1,45 @@
+code,r,g,b,a,label
+1,230,0,77,116,Continuous urban fabric
+2,204,0,0,255,Road and rail networks and associated land
+3,230,204,204,255,Port areas
+4,230,204,230,255,Airports
+5,166,0,204,255,Mineral extraction sites
+6,166,77,0,255,Dump sites
+7,255,77,255,255,Construction sites
+8,255,166,255,255,Green urban areas
+9,255,255,168,255,Non-irrigated arable land
+10,255,255,0,255,Permanently irrigated land
+11,230,230,0,255,Rice fields
+12,230,128,0,255,Vineyards
+13,242,166,77,255,Fruit trees and berry plantations
+14,230,166,0,255,Olive groves
+15,230,230,77,255,Pastures
+16,128,255,0,255,Broad-leaved forest
+17,0,166,0,255,Coniferous forest
+18,204,242,77,255,Natural grasslands
+19,166,255,128,255,Moors and heathland
+20,166,230,77,255,Sclerophyllous vegetation
+21,166,242,0,255,Transitional woodland-shrub
+22,230,230,230,255,Beaches dunes sands
+23,204,204,204,255,Bare rocks
+24,204,255,204,255,Sparsely vegetated areas
+25,0,0,0,255,Burnt areas
+26,166,230,204,255,Glaciers and perpetual snow
+27,166,166,255,255,Inland marshes
+28,204,204,255,255,Maritime wetlands
+29,0,204,242,255,Water courses
+30,128,242,230,255,Water bodies
+31,0,255,166,255,Coastal lagoons
+32,166,255,230,255,Estuaries
+33,230,242,255,255,Sea and ocean
+112,255,0,0,255,Discontinuous urban fabric
+121,204,77,242,255,Industrial or commercial units
+142,255,230,255,255,Sport and leisure facilities
+241,255,230,166,255,Annual crops associated with permanent crops
+242,255,230,77,255,Complex cultivation patterns
+243,230,204,77,255,Land principally occupied by agriculture with significant areas of natural vegetation
+244,242,204,166,255,Agro-forestry areas
+313,77,255,0,255,Mixed forest
+412,77,77,255,255,Peat bogs
+422,230,230,255,255,Salines
+423,166,166,230,255,Intertidal flats
