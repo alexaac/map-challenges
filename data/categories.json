@@ -210,7 +210,7 @@
     "icon": "",
     "description": " Urban/Rural ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "land",
