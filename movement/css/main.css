@@ -1,0 +1,136 @@
+body {
+  overflow: auto;
+  color: #5d5c56;
+  background: #fff;
+}
+
+.wrapper {
+  min-height: initial;
+  overflow: initial;
+  height: initial;
+}
+
+#sections {
+  position: relative;
+  z-index: 1000;
+  padding: 5rem 0;
+}
+
+#sections > .step {
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0.2;
+  line-height: 1.7;
+  width: 40vw;
+  max-width: 700px;
+  text-align: left;
+  margin-bottom: 30vh;
+  padding: 1rem 0.5rem 0 1rem;
+}
+
+#sections > .step:first-child {
+  margin-top: 90vh;
+}
+
+#sections > .step:last-child {
+  margin-bottom: 90vh;
+}
+
+#sections > .step.graph-scroll-active {
+  opacity: 1;
+}
+
+.title,
+.prologue,
+.below {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.2rem 1rem;
+}
+
+.below {
+  margin-bottom: 1rem;
+}
+
+.container {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+#graph {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mapboxgl-canvas-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 925px) {
+  /* #graph {
+    width: 100%;
+    margin-left: 0px;
+    float: none;
+  } */
+
+  #sections > .step {
+    width: 90vw;
+  }
+}
+
+.mapboxgl-popup-content,
+.maplibregl-popup-content {
+  background: none;
+  box-shadow: none;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: #3fb1ce;
+  border-top-style: ridge;
+}
+
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip,
+.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: #3fb1ce;
+  border-right-style: ridge;
+}
+
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip,
+.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: #3fb1ce;
+  border-left-style: ridge;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.maplibregl-popup-anchor-top .maplibregl-popup-tip {
+  border-bottom-color: #3fb1ce;
+  border-bottom-style: ridge;
+}
+
+.mapboxgl-popup-content,
+.maplibregl-popup-content {
+  padding: 10px 10px 5px;
+}
+
+.popup {
+  display: block;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.popup:hover {
+  border-radius: 0%;
+}
+
+.main-cat {
+  background: url(https://placekitten.com/g/53/53);
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  display: inline-block;
+}
