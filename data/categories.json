@@ -240,7 +240,7 @@
     "icon": "",
     "description": " Island(s) ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "movement",
