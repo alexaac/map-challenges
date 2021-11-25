@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="UTF-8" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#30DayMapChallenge Day 22: Boundaries</title>
+
+    <meta property="og:title" content="#30DayMapChallenge Day 22: Boundaries" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/boundaries"
+    />
+    <meta property="og:description" content="#30DayMapChallenge on Twitter" />
+    <meta property="article:publisher" content="https://maptheclouds.com" />
+    <meta property="article:section" content="Graphic" />
+    <meta property="article:tag" content="Graphic" />
+    <meta
+      property="og:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/boundaries/img/og_1400_900.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="900" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/boundaries/img/og_1400_900.png"
+    />
+    <meta property="twitter:site" content="@maptheclouds" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="centered">
+        <div class="content">
+          <div class="title">
+            <h1>#30DayMapChallenge Day 22: Boundaries</h1>
+            <h2>Non-Contiguous Cartogram ➗</h2>
+            <div class="description">
+              <p>
+                The results from the Romania's Presidential Elections 2019, round 2. 
+              The size of each county is distorted by population (the total number of valid expressed votes).</p>
+            </div>
+          </div>
+          <div id="chart-cart" class="chart-cart grabbable">
+            <div id="noncont-cartogram" class="noncont-cartogram"></div>
+          </div>
+          <div class="below">
+            <div>
+              <strong>Data: </strong> 
+              <a href="https://geoportal.ancpi.ro/" target="_blank">ANCPI</a>,
+              <a href="http://prezidentiale2019.bec.ro/" target="_blank">BEC</a>,
+              <a href="https://prezenta.bec.ro/prezidentiale24112019" target="_blank">Alegeri 2019</a>
+              
+            </div>
+            <div>
+              <strong>Graphic: </strong> @maptheclouds
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="https://unpkg.com/d3-force-attract@latest"></script>
+    <script src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://unpkg.com/d3-geo-scale-bar@0.0.2/build/d3-geo-scale-bar.min.js"></script>
+    <script src="https://unpkg.com/d3-geo-scale-bar@0.2.0/build/d3-geo-scale-bar.js"></script>
+
+    <script type="module" src="./js/main.js"></script>
+
+  </body>
+
+</html>

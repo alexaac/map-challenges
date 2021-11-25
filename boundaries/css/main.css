@@ -1,0 +1,103 @@
+svg.chart-cart {
+  width: 90vw;
+  height: initial;
+  max-width: 1000px;
+}
+
+tooltip_div.tooltip {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #222;
+  opacity: 0.9;
+  color: #222;
+  padding: 10px;
+  min-width: 16.75vmin;
+  font-size: 0.7em;
+  line-height: 24pt;
+  font-family: 'EB Garamond', serif;
+  font-weight: lighter;
+  visibility: visible;
+  pointer-events: none;
+}
+
+.land {
+  fill: #e8e8e8;
+}
+
+.feature-label {
+  font-size: 0.4rem;
+  /* font-weight: bold; */
+  pointer-events: none;
+  text-anchor: middle;
+  fill: white;
+  text-shadow: 0 0 2px #66aed8;
+}
+
+.feature-label.hidden {
+  display: none;
+}
+
+g.features path:hover,
+g.bar rect:hover,
+.bubble:hover,
+.districts:hover {
+  stroke: ;
+  stroke-width: 2px;
+  fill-opacity: 0.8;
+}
+
+.bar text.value {
+  fill: #808080;
+  font: 11px sans-serif;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+  font: 10px sans-serif;
+}
+
+.axis path {
+  fill: none;
+}
+
+.x.axis line {
+  stroke: #222;
+}
+
+.y.axis path {
+  stroke: #222;
+}
+
+.features-overlay {
+  stroke: white;
+  stroke-width: 0.5px;
+}
+
+#top-btn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 5%;
+  max-width: 30px;
+  width: 100%;
+  font-size: 12px;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: rgb(100, 100, 100);
+  padding: 0.5px;
+  border-radius: 4px;
+}
+#top-btn:hover {
+  background-color: #7dbbf1;
+}
+
+.legend-percent {
+  max-width: 400px;
+}
+
+.noncont-cartogram {
+  max-width: 700px;
+}
