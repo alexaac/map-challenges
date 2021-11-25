@@ -1,0 +1,51 @@
+.slider {
+  background-image: none;
+  background-color: #3a617f;
+}
+
+.chart-group {
+  width: 1000px;
+  height: 700px;
+  color: #e6004d;
+  border: 4px solid #f7f2f2;
+}
+
+@media (max-width: 576px) {
+  .chart-group {
+    width: 350px;
+    height: 350px;
+    color: #f7f2f2;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Medium devices (tablets, $tablet and up) */
+  .chart-group {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Medium devices (tablets, $tablet and up) */
+  .chart-group {
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large devices (desktops, $desktop and up) */
+  .chart-group {
+    width: 1000px;
+  }
+}
+
+/* TODO: fix image hopping on zoom */
+.leaflet-container img.leaflet-image-layer {
+  max-width: none !important;
+}
+
+.leaflet-control-layers,
+.leaflet-bar a,
+.leaflet-bar a:hover {
+  background: #575353;
+}

@@ -260,7 +260,7 @@
     "icon": "",
     "description": " Elevation ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "boundaries",
