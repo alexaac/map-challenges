@@ -1,6 +1,6 @@
 ### Project
 
-#30DayMapChallenge Day 24. Historycal
+#30DayMapChallenge Day 24. Historical
 
 ### Title
 

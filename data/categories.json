@@ -283,12 +283,12 @@
     "finished": false
   },
   {
-    "name": "historycal",
-    "title": "24. Historycal",
+    "name": "historical",
+    "title": "24. Historical",
     "type": "child",
     "parent": "30-day-map-challenge",
     "icon": "",
-    "description": " Historycal ",
+    "description": " Historical ",
     "examples": [],
     "finished": true
   },
