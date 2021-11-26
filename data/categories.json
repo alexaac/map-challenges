@@ -283,14 +283,14 @@
     "finished": false
   },
   {
-    "name": "historical",
-    "title": "24. Historical",
+    "name": "historycal",
+    "title": "24. Historycal",
     "type": "child",
     "parent": "30-day-map-challenge",
     "icon": "",
-    "description": " Historical ",
+    "description": " Historycal ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "interactive",
