@@ -209,6 +209,11 @@ svg.chart-group {
   opacity: 1;
 }
 
+.tooltip img {
+  float: left;
+  padding: 10px;
+}
+
 .tooltip {
   background: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
@@ -216,7 +221,7 @@ svg.chart-group {
   font-size: 0.8em;
   font-family: 'EB Garamond', serif;
   max-width: 500px;
-  padding: 2rem;
+  padding: 1.5rem;
   position: absolute;
   z-index: 1;
   border-radius: 3px;
@@ -237,9 +242,9 @@ svg.chart-group {
 .tooltip__remove {
   background: none;
   border: 0;
-  &:hover {
-    color: $yellow;
-  }
+}
+.tooltip__remove:hover {
+  color: #f1ce5a;
 }
 .tooltip:after {
   content: '';

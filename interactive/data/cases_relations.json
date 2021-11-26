@@ -1,0 +1,5216 @@
+{
+  "data": {
+    "nodes": [
+      {
+        "name": 3,
+        "properties": {
+          "case_no": 3,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "28-02-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "MARAMUREȘ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 7,
+        "properties": {
+          "case_no": 7,
+          "source_no": 5,
+          "status": "Vindecat",
+          "diagnostic_date": "05-03-2020",
+          "healing_date": "08-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Da",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 8,
+        "properties": {
+          "case_no": 8,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "06-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "OLT",
+          "uat": "CARACAL",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 9,
+        "properties": {
+          "case_no": 9,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "06-03-2020",
+          "healing_date": "14-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 10,
+        "properties": {
+          "case_no": 10,
+          "source_no": 4,
+          "status": "Vindecat",
+          "diagnostic_date": "07-03-2020",
+          "healing_date": "09-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 11,
+        "properties": {
+          "case_no": 11,
+          "source_no": 9,
+          "status": "Vindecat",
+          "diagnostic_date": "07-03-2020",
+          "healing_date": "14-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 16,
+        "properties": {
+          "case_no": 16,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "09-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUZĂU",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 17,
+        "properties": {
+          "case_no": 17,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "09-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Israel"
+        }
+      },
+      {
+        "name": 18,
+        "properties": {
+          "case_no": 18,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 19,
+        "properties": {
+          "case_no": 19,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 20,
+        "properties": {
+          "case_no": 20,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Da",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 1,
+        "properties": {
+          "case_no": 1,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "26-02-2020",
+          "healing_date": "01-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "GORJ",
+          "uat": "BÂLTENI",
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Da",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 2,
+        "properties": {
+          "case_no": 2,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "28-02-2020",
+          "healing_date": "05-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 4,
+        "properties": {
+          "case_no": 4,
+          "source_no": 2,
+          "status": "Vindecat",
+          "diagnostic_date": "03-03-2020",
+          "healing_date": "05-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 5,
+        "properties": {
+          "case_no": 5,
+          "source_no": 4,
+          "status": "Vindecat",
+          "diagnostic_date": "04-03-2020",
+          "healing_date": "07-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 21,
+        "properties": {
+          "case_no": 21,
+          "source_no": 12,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ILFOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 53,
+        "properties": {
+          "case_no": 53,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "COVASNA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 6,
+        "properties": {
+          "case_no": 6,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "04-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "SUCEAVA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 12,
+        "properties": {
+          "case_no": 12,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "07-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 13,
+        "properties": {
+          "case_no": 13,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "07-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "GALAȚI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 14,
+        "properties": {
+          "case_no": 14,
+          "source_no": 12,
+          "status": "Confirmat",
+          "diagnostic_date": "08-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 15,
+        "properties": {
+          "case_no": 15,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "08-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "MUREȘ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 22,
+        "properties": {
+          "case_no": 22,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Israel"
+        }
+      },
+      {
+        "name": 23,
+        "properties": {
+          "case_no": 23,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Israel"
+        }
+      },
+      {
+        "name": 24,
+        "properties": {
+          "case_no": 24,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Marea Britanie"
+        }
+      },
+      {
+        "name": 25,
+        "properties": {
+          "case_no": 25,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Germania"
+        }
+      },
+      {
+        "name": 26,
+        "properties": {
+          "case_no": 26,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 27,
+        "properties": {
+          "case_no": 27,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": "14-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": "PETROȘANI",
+          "reference": "https://google.com",
+          "healed_reference": "https://google.com",
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 28,
+        "properties": {
+          "case_no": 28,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CARAȘ-SEVERIN",
+          "uat": "REȘIȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 29,
+        "properties": {
+          "case_no": 29,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "10-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 30,
+        "properties": {
+          "case_no": 30,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 31,
+        "properties": {
+          "case_no": 31,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "IAȘI",
+          "uat": "IAȘI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 32,
+        "properties": {
+          "case_no": 32,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "IAȘI",
+          "uat": "IAȘI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Polonia"
+        }
+      },
+      {
+        "name": 33,
+        "properties": {
+          "case_no": 33,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Da",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 34,
+        "properties": {
+          "case_no": 34,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 55,
+        "properties": {
+          "case_no": 55,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 35,
+        "properties": {
+          "case_no": 35,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "COVASNA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 36,
+        "properties": {
+          "case_no": 36,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Israel"
+        }
+      },
+      {
+        "name": 37,
+        "properties": {
+          "case_no": 37,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Germania"
+        }
+      },
+      {
+        "name": 38,
+        "properties": {
+          "case_no": 38,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 39,
+        "properties": {
+          "case_no": 39,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 41,
+        "properties": {
+          "case_no": 41,
+          "source_no": 26,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": "ARAD",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 42,
+        "properties": {
+          "case_no": 42,
+          "source_no": 26,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": "ARAD",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 43,
+        "properties": {
+          "case_no": 43,
+          "source_no": 26,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": "ARAD",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 44,
+        "properties": {
+          "case_no": 44,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": "ARAD",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 89,
+        "properties": {
+          "case_no": 89,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BIHOR",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 182,
+        "properties": {
+          "case_no": 182,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BOTOȘANI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Da",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 40,
+        "properties": {
+          "case_no": 40,
+          "source_no": 26,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": "ARAD",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 45,
+        "properties": {
+          "case_no": 45,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "SATU MARE",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Da",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 46,
+        "properties": {
+          "case_no": 46,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 47,
+        "properties": {
+          "case_no": 47,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "11-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Da",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 48,
+        "properties": {
+          "case_no": 48,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 49,
+        "properties": {
+          "case_no": 49,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Da",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 50,
+        "properties": {
+          "case_no": 50,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "NEAMȚ",
+          "uat": "ROMAN",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 51,
+        "properties": {
+          "case_no": 51,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "MUREȘ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 52,
+        "properties": {
+          "case_no": 52,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CLUJ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 54,
+        "properties": {
+          "case_no": 54,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 56,
+        "properties": {
+          "case_no": 56,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 57,
+        "properties": {
+          "case_no": 57,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 58,
+        "properties": {
+          "case_no": 58,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 59,
+        "properties": {
+          "case_no": 59,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "12-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 60,
+        "properties": {
+          "case_no": 60,
+          "source_no": 37,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 63,
+        "properties": {
+          "case_no": 63,
+          "source_no": 61,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 76,
+        "properties": {
+          "case_no": 76,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BRAȘOV",
+          "uat": "BRAȘOV",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "SUA"
+        }
+      },
+      {
+        "name": 79,
+        "properties": {
+          "case_no": 79,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BRAȘOV",
+          "uat": "BRAȘOV",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 94,
+        "properties": {
+          "case_no": 94,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CARAȘ-SEVERIN",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 95,
+        "properties": {
+          "case_no": 95,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CARAȘ-SEVERIN",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 96,
+        "properties": {
+          "case_no": 96,
+          "source_no": 45,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 110,
+        "properties": {
+          "case_no": 110,
+          "source_no": 67,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 111,
+        "properties": {
+          "case_no": 111,
+          "source_no": 76,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BRAȘOV",
+          "uat": "BRAȘOV",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 64,
+        "properties": {
+          "case_no": 64,
+          "source_no": 61,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 65,
+        "properties": {
+          "case_no": 65,
+          "source_no": 39,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 75,
+        "properties": {
+          "case_no": 75,
+          "source_no": 30,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 77,
+        "properties": {
+          "case_no": 77,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "COVASNA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 78,
+        "properties": {
+          "case_no": 78,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "COVASNA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 80,
+        "properties": {
+          "case_no": 80,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "PRAHOVA",
+          "uat": "BUȘTENI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 81,
+        "properties": {
+          "case_no": 81,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 82,
+        "properties": {
+          "case_no": 82,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Marea Britanie"
+        }
+      },
+      {
+        "name": 91,
+        "properties": {
+          "case_no": 91,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BACĂU",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 92,
+        "properties": {
+          "case_no": 92,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "IAȘI",
+          "uat": "IAȘI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Dubai"
+        }
+      },
+      {
+        "name": 93,
+        "properties": {
+          "case_no": 93,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "IAȘI",
+          "uat": "IAȘI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Franța"
+        }
+      },
+      {
+        "name": 116,
+        "properties": {
+          "case_no": 116,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CARAȘ-SEVERIN",
+          "uat": "REȘIȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 61,
+        "properties": {
+          "case_no": 61,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 62,
+        "properties": {
+          "case_no": 62,
+          "source_no": 61,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 66,
+        "properties": {
+          "case_no": 66,
+          "source_no": 39,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 72,
+        "properties": {
+          "case_no": 72,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 73,
+        "properties": {
+          "case_no": 73,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 74,
+        "properties": {
+          "case_no": 74,
+          "source_no": 30,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 83,
+        "properties": {
+          "case_no": 83,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 84,
+        "properties": {
+          "case_no": 84,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 85,
+        "properties": {
+          "case_no": 85,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "LUGOJ",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 86,
+        "properties": {
+          "case_no": 86,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "LUGOJ",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 87,
+        "properties": {
+          "case_no": 87,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CARAȘ-SEVERIN",
+          "uat": "CARANSEBEȘ",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 88,
+        "properties": {
+          "case_no": 88,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Marea Britanie"
+        }
+      },
+      {
+        "name": 130,
+        "properties": {
+          "case_no": 130,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 67,
+        "properties": {
+          "case_no": 67,
+          "source_no": 39,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 68,
+        "properties": {
+          "case_no": 68,
+          "source_no": 39,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 69,
+        "properties": {
+          "case_no": 69,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "MEHEDINȚI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 70,
+        "properties": {
+          "case_no": 70,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "MEHEDINȚI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 71,
+        "properties": {
+          "case_no": 71,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 112,
+        "properties": {
+          "case_no": 112,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 113,
+        "properties": {
+          "case_no": 113,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 115,
+        "properties": {
+          "case_no": 115,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": "HUNEDOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 121,
+        "properties": {
+          "case_no": 121,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Norvegia"
+        }
+      },
+      {
+        "name": 125,
+        "properties": {
+          "case_no": 125,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 127,
+        "properties": {
+          "case_no": 127,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 128,
+        "properties": {
+          "case_no": 128,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 169,
+        "properties": {
+          "case_no": 169,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 90,
+        "properties": {
+          "case_no": 90,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "13-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "NEAMȚ",
+          "uat": "BICAZ",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 114,
+        "properties": {
+          "case_no": 114,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": "HUNEDOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 117,
+        "properties": {
+          "case_no": 117,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 118,
+        "properties": {
+          "case_no": 118,
+          "source_no": 67,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 119,
+        "properties": {
+          "case_no": 119,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CLUJ",
+          "uat": "CLUJ-NAPOCA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Germania"
+        }
+      },
+      {
+        "name": 120,
+        "properties": {
+          "case_no": 120,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "SATU MARE",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 122,
+        "properties": {
+          "case_no": 122,
+          "source_no": 30,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 123,
+        "properties": {
+          "case_no": 123,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 124,
+        "properties": {
+          "case_no": 124,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 126,
+        "properties": {
+          "case_no": 126,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 129,
+        "properties": {
+          "case_no": 129,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 170,
+        "properties": {
+          "case_no": 170,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 97,
+        "properties": {
+          "case_no": 97,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "DOLJ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 98,
+        "properties": {
+          "case_no": 98,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Austria"
+        }
+      },
+      {
+        "name": 99,
+        "properties": {
+          "case_no": 99,
+          "source_no": 98,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 100,
+        "properties": {
+          "case_no": 100,
+          "source_no": 65,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": "DEVA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 101,
+        "properties": {
+          "case_no": 101,
+          "source_no": 65,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 102,
+        "properties": {
+          "case_no": 102,
+          "source_no": 65,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "HUNEDOARA",
+          "uat": "DEVA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 103,
+        "properties": {
+          "case_no": 103,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BRAȘOV",
+          "uat": "BRAȘOV",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 104,
+        "properties": {
+          "case_no": 104,
+          "source_no": 59,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": "DEVA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 105,
+        "properties": {
+          "case_no": 105,
+          "source_no": 59,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 106,
+        "properties": {
+          "case_no": 106,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 107,
+        "properties": {
+          "case_no": 107,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 108,
+        "properties": {
+          "case_no": 108,
+          "source_no": 27,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 109,
+        "properties": {
+          "case_no": 109,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "14-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TIMIȘ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 132,
+        "properties": {
+          "case_no": 132,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 133,
+        "properties": {
+          "case_no": 133,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 134,
+        "properties": {
+          "case_no": 134,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 135,
+        "properties": {
+          "case_no": 135,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRĂILA",
+          "uat": "BRĂILA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 136,
+        "properties": {
+          "case_no": 136,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRĂILA",
+          "uat": "BRĂILA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 137,
+        "properties": {
+          "case_no": 137,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 138,
+        "properties": {
+          "case_no": 138,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TELEORMAN",
+          "uat": "ALEXANDRIA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Spania"
+        }
+      },
+      {
+        "name": 139,
+        "properties": {
+          "case_no": 139,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 140,
+        "properties": {
+          "case_no": 140,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "HUNEDOARA",
+          "uat": "DEVA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 141,
+        "properties": {
+          "case_no": 141,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "VÂLCEA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 142,
+        "properties": {
+          "case_no": 142,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "VÂLCEA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 144,
+        "properties": {
+          "case_no": 144,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 151,
+        "properties": {
+          "case_no": 151,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 152,
+        "properties": {
+          "case_no": 152,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "TIMIȘ",
+          "uat": "TIMIȘOARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 153,
+        "properties": {
+          "case_no": 153,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 154,
+        "properties": {
+          "case_no": 154,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "CLUJ",
+          "uat": "CLUJ-NAPOCA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Romania"
+        }
+      },
+      {
+        "name": 155,
+        "properties": {
+          "case_no": 155,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "SĂLAJ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 158,
+        "properties": {
+          "case_no": 158,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "SUCEAVA",
+          "uat": "CAJVANA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 172,
+        "properties": {
+          "case_no": 172,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 173,
+        "properties": {
+          "case_no": 173,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 174,
+        "properties": {
+          "case_no": 174,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 175,
+        "properties": {
+          "case_no": 175,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 178,
+        "properties": {
+          "case_no": 178,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "NEAMȚ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 131,
+        "properties": {
+          "case_no": 131,
+          "source_no": null,
+          "status": "Vindecat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": "17-03-2020",
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 143,
+        "properties": {
+          "case_no": 143,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "15-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "IALOMIȚA",
+          "uat": "AMARA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 145,
+        "properties": {
+          "case_no": 145,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 148,
+        "properties": {
+          "case_no": 148,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ILFOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 149,
+        "properties": {
+          "case_no": 149,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ILFOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 150,
+        "properties": {
+          "case_no": 150,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ILFOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 156,
+        "properties": {
+          "case_no": 156,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BUZĂU",
+          "uat": "RÂMNICU SĂRAT",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 157,
+        "properties": {
+          "case_no": 157,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "GALAȚI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 168,
+        "properties": {
+          "case_no": 168,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "NEAMȚ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Franta"
+        }
+      },
+      {
+        "name": 179,
+        "properties": {
+          "case_no": 179,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "NEAMȚ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 180,
+        "properties": {
+          "case_no": 180,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "IALOMIȚA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 181,
+        "properties": {
+          "case_no": 181,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "MUREȘ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 146,
+        "properties": {
+          "case_no": 146,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 147,
+        "properties": {
+          "case_no": 147,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "ARAD",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 159,
+        "properties": {
+          "case_no": 159,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 160,
+        "properties": {
+          "case_no": 160,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 161,
+        "properties": {
+          "case_no": 161,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 162,
+        "properties": {
+          "case_no": 162,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": "BUCUREȘTI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 163,
+        "properties": {
+          "case_no": 163,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ILFOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 164,
+        "properties": {
+          "case_no": 164,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "ILFOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 165,
+        "properties": {
+          "case_no": 165,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "CONSTANȚA",
+          "uat": "CONSTANȚA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 166,
+        "properties": {
+          "case_no": 166,
+          "source_no": 138,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "TELEORMAN",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 167,
+        "properties": {
+          "case_no": 167,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "16-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "MUREȘ",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 171,
+        "properties": {
+          "case_no": 171,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "IAȘI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 176,
+        "properties": {
+          "case_no": 176,
+          "source_no": 158,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "SUCEAVA",
+          "uat": "CAJVANA",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 177,
+        "properties": {
+          "case_no": 177,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "SUCEAVA",
+          "uat": "BOSANCI",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": "Other",
+          "country_of_infection": "Belgia"
+        }
+      },
+      {
+        "name": 183,
+        "properties": {
+          "case_no": 183,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": 45,
+          "county": "BISTRIȚA-NĂSĂUD",
+          "uat": "NĂSĂUD",
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Da",
+          "other_info": "Other",
+          "country_of_infection": "Italia"
+        }
+      },
+      {
+        "name": 184,
+        "properties": {
+          "case_no": 184,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 185,
+        "properties": {
+          "case_no": 185,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 186,
+        "properties": {
+          "case_no": 186,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 187,
+        "properties": {
+          "case_no": 187,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 188,
+        "properties": {
+          "case_no": 188,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 189,
+        "properties": {
+          "case_no": 189,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 190,
+        "properties": {
+          "case_no": 190,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 191,
+        "properties": {
+          "case_no": 191,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 192,
+        "properties": {
+          "case_no": 192,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 193,
+        "properties": {
+          "case_no": 193,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 194,
+        "properties": {
+          "case_no": 194,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 203,
+        "properties": {
+          "case_no": 203,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 195,
+        "properties": {
+          "case_no": 195,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 196,
+        "properties": {
+          "case_no": 196,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 197,
+        "properties": {
+          "case_no": 197,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 198,
+        "properties": {
+          "case_no": 198,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 199,
+        "properties": {
+          "case_no": 199,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 200,
+        "properties": {
+          "case_no": 200,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 201,
+        "properties": {
+          "case_no": 201,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 202,
+        "properties": {
+          "case_no": 202,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 204,
+        "properties": {
+          "case_no": 204,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 205,
+        "properties": {
+          "case_no": 205,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 206,
+        "properties": {
+          "case_no": 206,
+          "source_no": 17,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 207,
+        "properties": {
+          "case_no": 207,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 208,
+        "properties": {
+          "case_no": 208,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 209,
+        "properties": {
+          "case_no": 209,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 210,
+        "properties": {
+          "case_no": 210,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BUCUREȘTI",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 211,
+        "properties": {
+          "case_no": 211,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 212,
+        "properties": {
+          "case_no": 212,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 213,
+        "properties": {
+          "case_no": 213,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 214,
+        "properties": {
+          "case_no": 214,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 215,
+        "properties": {
+          "case_no": 215,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "BRAȘOV",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 216,
+        "properties": {
+          "case_no": 216,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "CONSTANȚA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      },
+      {
+        "name": 217,
+        "properties": {
+          "case_no": 217,
+          "source_no": null,
+          "status": "Confirmat",
+          "diagnostic_date": "17-03-2020",
+          "healing_date": null,
+          "death_date": null,
+          "gender": "Bărbat",
+          "age": null,
+          "county": "PRAHOVA",
+          "uat": null,
+          "reference": "https://google.com",
+          "healed_reference": null,
+          "symptoms": "Nu",
+          "other_info": null,
+          "country_of_infection": null
+        }
+      }
+    ],
+    "links": [
+      {
+        "source": 1,
+        "target": 1
+      },
+      {
+        "source": 2,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 3
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 10
+      },
+      {
+        "source": 5,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 6
+      },
+      {
+        "source": 8,
+        "target": 8
+      },
+      {
+        "source": 9,
+        "target": 9
+      },
+      {
+        "source": 9,
+        "target": 11
+      },
+      {
+        "source": 12,
+        "target": 12
+      },
+      {
+        "source": 12,
+        "target": 14
+      },
+      {
+        "source": 12,
+        "target": 21
+      },
+      {
+        "source": 13,
+        "target": 13
+      },
+      {
+        "source": 15,
+        "target": 15
+      },
+      {
+        "source": 16,
+        "target": 16
+      },
+      {
+        "source": 17,
+        "target": 17
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 19
+      },
+      {
+        "source": 17,
+        "target": 20
+      },
+      {
+        "source": 17,
+        "target": 29
+      },
+      {
+        "source": 17,
+        "target": 30
+      },
+      {
+        "source": 17,
+        "target": 33
+      },
+      {
+        "source": 17,
+        "target": 34
+      },
+      {
+        "source": 17,
+        "target": 38
+      },
+      {
+        "source": 17,
+        "target": 61
+      },
+      {
+        "source": 17,
+        "target": 123
+      },
+      {
+        "source": 17,
+        "target": 185
+      },
+      {
+        "source": 17,
+        "target": 186
+      },
+      {
+        "source": 17,
+        "target": 187
+      },
+      {
+        "source": 17,
+        "target": 188
+      },
+      {
+        "source": 17,
+        "target": 189
+      },
+      {
+        "source": 17,
+        "target": 190
+      },
+      {
+        "source": 17,
+        "target": 191
+      },
+      {
+        "source": 17,
+        "target": 192
+      },
+      {
+        "source": 17,
+        "target": 193
+      },
+      {
+        "source": 17,
+        "target": 194
+      },
+      {
+        "source": 17,
+        "target": 195
+      },
+      {
+        "source": 17,
+        "target": 196
+      },
+      {
+        "source": 17,
+        "target": 197
+      },
+      {
+        "source": 17,
+        "target": 198
+      },
+      {
+        "source": 17,
+        "target": 199
+      },
+      {
+        "source": 17,
+        "target": 200
+      },
+      {
+        "source": 17,
+        "target": 201
+      },
+      {
+        "source": 17,
+        "target": 202
+      },
+      {
+        "source": 17,
+        "target": 203
+      },
+      {
+        "source": 17,
+        "target": 204
+      },
+      {
+        "source": 17,
+        "target": 205
+      },
+      {
+        "source": 17,
+        "target": 206
+      },
+      {
+        "source": 22,
+        "target": 22
+      },
+      {
+        "source": 23,
+        "target": 23
+      },
+      {
+        "source": 24,
+        "target": 24
+      },
+      {
+        "source": 25,
+        "target": 25
+      },
+      {
+        "source": 26,
+        "target": 26
+      },
+      {
+        "source": 26,
+        "target": 40
+      },
+      {
+        "source": 26,
+        "target": 41
+      },
+      {
+        "source": 26,
+        "target": 42
+      },
+      {
+        "source": 26,
+        "target": 43
+      },
+      {
+        "source": 27,
+        "target": 27
+      },
+      {
+        "source": 27,
+        "target": 54
+      },
+      {
+        "source": 27,
+        "target": 55
+      },
+      {
+        "source": 27,
+        "target": 56
+      },
+      {
+        "source": 27,
+        "target": 57
+      },
+      {
+        "source": 27,
+        "target": 58
+      },
+      {
+        "source": 27,
+        "target": 59
+      },
+      {
+        "source": 27,
+        "target": 106
+      },
+      {
+        "source": 27,
+        "target": 107
+      },
+      {
+        "source": 27,
+        "target": 108
+      },
+      {
+        "source": 27,
+        "target": 114
+      },
+      {
+        "source": 27,
+        "target": 115
+      },
+      {
+        "source": 28,
+        "target": 28
+      },
+      {
+        "source": 30,
+        "target": 74
+      },
+      {
+        "source": 30,
+        "target": 75
+      },
+      {
+        "source": 30,
+        "target": 122
+      },
+      {
+        "source": 31,
+        "target": 31
+      },
+      {
+        "source": 32,
+        "target": 32
+      },
+      {
+        "source": 35,
+        "target": 35
+      },
+      {
+        "source": 36,
+        "target": 36
+      },
+      {
+        "source": 37,
+        "target": 37
+      },
+      {
+        "source": 37,
+        "target": 60
+      },
+      {
+        "source": 39,
+        "target": 39
+      },
+      {
+        "source": 39,
+        "target": 65
+      },
+      {
+        "source": 39,
+        "target": 66
+      },
+      {
+        "source": 39,
+        "target": 67
+      },
+      {
+        "source": 39,
+        "target": 68
+      },
+      {
+        "source": 44,
+        "target": 44
+      },
+      {
+        "source": 45,
+        "target": 45
+      },
+      {
+        "source": 45,
+        "target": 96
+      },
+      {
+        "source": 46,
+        "target": 46
+      },
+      {
+        "source": 47,
+        "target": 47
+      },
+      {
+        "source": 48,
+        "target": 48
+      },
+      {
+        "source": 49,
+        "target": 49
+      },
+      {
+        "source": 50,
+        "target": 50
+      },
+      {
+        "source": 51,
+        "target": 51
+      },
+      {
+        "source": 52,
+        "target": 52
+      },
+      {
+        "source": 53,
+        "target": 53
+      },
+      {
+        "source": 59,
+        "target": 104
+      },
+      {
+        "source": 59,
+        "target": 105
+      },
+      {
+        "source": 61,
+        "target": 62
+      },
+      {
+        "source": 61,
+        "target": 63
+      },
+      {
+        "source": 61,
+        "target": 64
+      },
+      {
+        "source": 65,
+        "target": 100
+      },
+      {
+        "source": 65,
+        "target": 101
+      },
+      {
+        "source": 65,
+        "target": 102
+      },
+      {
+        "source": 67,
+        "target": 110
+      },
+      {
+        "source": 67,
+        "target": 118
+      },
+      {
+        "source": 69,
+        "target": 69
+      },
+      {
+        "source": 70,
+        "target": 70
+      },
+      {
+        "source": 71,
+        "target": 71
+      },
+      {
+        "source": 72,
+        "target": 72
+      },
+      {
+        "source": 73,
+        "target": 73
+      },
+      {
+        "source": 76,
+        "target": 76
+      },
+      {
+        "source": 76,
+        "target": 111
+      },
+      {
+        "source": 77,
+        "target": 77
+      },
+      {
+        "source": 78,
+        "target": 78
+      },
+      {
+        "source": 79,
+        "target": 79
+      },
+      {
+        "source": 80,
+        "target": 80
+      },
+      {
+        "source": 81,
+        "target": 81
+      },
+      {
+        "source": 82,
+        "target": 82
+      },
+      {
+        "source": 83,
+        "target": 83
+      },
+      {
+        "source": 84,
+        "target": 84
+      },
+      {
+        "source": 85,
+        "target": 85
+      },
+      {
+        "source": 86,
+        "target": 86
+      },
+      {
+        "source": 87,
+        "target": 87
+      },
+      {
+        "source": 88,
+        "target": 88
+      },
+      {
+        "source": 89,
+        "target": 89
+      },
+      {
+        "source": 90,
+        "target": 90
+      },
+      {
+        "source": 91,
+        "target": 91
+      },
+      {
+        "source": 92,
+        "target": 92
+      },
+      {
+        "source": 93,
+        "target": 93
+      },
+      {
+        "source": 94,
+        "target": 94
+      },
+      {
+        "source": 95,
+        "target": 95
+      },
+      {
+        "source": 97,
+        "target": 97
+      },
+      {
+        "source": 98,
+        "target": 98
+      },
+      {
+        "source": 98,
+        "target": 99
+      },
+      {
+        "source": 103,
+        "target": 103
+      },
+      {
+        "source": 109,
+        "target": 109
+      },
+      {
+        "source": 112,
+        "target": 112
+      },
+      {
+        "source": 113,
+        "target": 113
+      },
+      {
+        "source": 116,
+        "target": 116
+      },
+      {
+        "source": 117,
+        "target": 117
+      },
+      {
+        "source": 119,
+        "target": 119
+      },
+      {
+        "source": 120,
+        "target": 120
+      },
+      {
+        "source": 121,
+        "target": 121
+      },
+      {
+        "source": 124,
+        "target": 124
+      },
+      {
+        "source": 125,
+        "target": 125
+      },
+      {
+        "source": 126,
+        "target": 126
+      },
+      {
+        "source": 127,
+        "target": 127
+      },
+      {
+        "source": 128,
+        "target": 128
+      },
+      {
+        "source": 129,
+        "target": 129
+      },
+      {
+        "source": 130,
+        "target": 130
+      },
+      {
+        "source": 131,
+        "target": 131
+      },
+      {
+        "source": 132,
+        "target": 132
+      },
+      {
+        "source": 133,
+        "target": 133
+      },
+      {
+        "source": 134,
+        "target": 134
+      },
+      {
+        "source": 135,
+        "target": 135
+      },
+      {
+        "source": 136,
+        "target": 136
+      },
+      {
+        "source": 137,
+        "target": 137
+      },
+      {
+        "source": 138,
+        "target": 138
+      },
+      {
+        "source": 138,
+        "target": 166
+      },
+      {
+        "source": 139,
+        "target": 139
+      },
+      {
+        "source": 140,
+        "target": 140
+      },
+      {
+        "source": 141,
+        "target": 141
+      },
+      {
+        "source": 142,
+        "target": 142
+      },
+      {
+        "source": 143,
+        "target": 143
+      },
+      {
+        "source": 144,
+        "target": 144
+      },
+      {
+        "source": 145,
+        "target": 145
+      },
+      {
+        "source": 146,
+        "target": 146
+      },
+      {
+        "source": 147,
+        "target": 147
+      },
+      {
+        "source": 148,
+        "target": 148
+      },
+      {
+        "source": 149,
+        "target": 149
+      },
+      {
+        "source": 150,
+        "target": 150
+      },
+      {
+        "source": 151,
+        "target": 151
+      },
+      {
+        "source": 152,
+        "target": 152
+      },
+      {
+        "source": 153,
+        "target": 153
+      },
+      {
+        "source": 154,
+        "target": 154
+      },
+      {
+        "source": 155,
+        "target": 155
+      },
+      {
+        "source": 156,
+        "target": 156
+      },
+      {
+        "source": 157,
+        "target": 157
+      },
+      {
+        "source": 158,
+        "target": 158
+      },
+      {
+        "source": 158,
+        "target": 176
+      },
+      {
+        "source": 159,
+        "target": 159
+      },
+      {
+        "source": 160,
+        "target": 160
+      },
+      {
+        "source": 161,
+        "target": 161
+      },
+      {
+        "source": 162,
+        "target": 162
+      },
+      {
+        "source": 163,
+        "target": 163
+      },
+      {
+        "source": 164,
+        "target": 164
+      },
+      {
+        "source": 165,
+        "target": 165
+      },
+      {
+        "source": 167,
+        "target": 167
+      },
+      {
+        "source": 168,
+        "target": 168
+      },
+      {
+        "source": 169,
+        "target": 169
+      },
+      {
+        "source": 170,
+        "target": 170
+      },
+      {
+        "source": 171,
+        "target": 171
+      },
+      {
+        "source": 172,
+        "target": 172
+      },
+      {
+        "source": 173,
+        "target": 173
+      },
+      {
+        "source": 174,
+        "target": 174
+      },
+      {
+        "source": 175,
+        "target": 175
+      },
+      {
+        "source": 177,
+        "target": 177
+      },
+      {
+        "source": 178,
+        "target": 178
+      },
+      {
+        "source": 179,
+        "target": 179
+      },
+      {
+        "source": 180,
+        "target": 180
+      },
+      {
+        "source": 181,
+        "target": 181
+      },
+      {
+        "source": 182,
+        "target": 182
+      },
+      {
+        "source": 183,
+        "target": 183
+      },
+      {
+        "source": 184,
+        "target": 184
+      },
+      {
+        "source": 207,
+        "target": 207
+      },
+      {
+        "source": 208,
+        "target": 208
+      },
+      {
+        "source": 209,
+        "target": 209
+      },
+      {
+        "source": 210,
+        "target": 210
+      },
+      {
+        "source": 211,
+        "target": 211
+      },
+      {
+        "source": 212,
+        "target": 212
+      },
+      {
+        "source": 213,
+        "target": 213
+      },
+      {
+        "source": 214,
+        "target": 214
+      },
+      {
+        "source": 215,
+        "target": 215
+      },
+      {
+        "source": 216,
+        "target": 216
+      },
+      {
+        "source": 217,
+        "target": 217
+      }
+    ]
+  }
+}

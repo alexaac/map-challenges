@@ -300,7 +300,7 @@
     "icon": "",
     "description": " Interactive ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "choropleth",

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="UTF-8" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#30DayMapChallenge Day 25. Interactive</title>
+
+    <meta property="og:title" content="#30DayMapChallenge Day 25. Interactive" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/polygons"
+    />
+    <meta property="og:description" content="#30DayMapChallenge on Twitter" />
+    <meta property="article:publisher" content="https://maptheclouds.com" />
+    <meta property="article:section" content="Graphic" />
+    <meta property="article:tag" content="Graphic" />
+    <meta
+      property="og:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/polygons/img/og_1400_900.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="900" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge/polygons/img/og_1400_900.png"
+    />
+    <meta property="twitter:site" content="@maptheclouds" />
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css"/>
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="centered">
+        <div class="content">
+          <div class="title">
+            <h1>#30DayMapChallenge Day 25. Interactive</h1>
+            <h2>Testing interaction 🖱️</h2>
+            <div class="description">
+              <p>
+                Sample case clusters grouped by county.
+              </p>
+            </div>
+          </div>
+          <div class="side-pannel-right">
+            <div class="control control-group">
+                <a id="toggle-legend" class="legend-icon" href="#" title="Legenda"></a>
+            </div>
+            <div class="control control-group">
+                <a id="show-map-clusters" class="map-clusters-icon" href="#" title="Clustere pe hartă"></a>
+                <a id="show-clusters" class="clusters-icon" href="#" title="Clustere"></a>
+            </div>
+            <div class="control control-group">
+                <a id="zoom-in" class="zoom-in-icon" href="#" title="Zoom In"></a>
+                <a id="zoom-out" class="zoom-out-icon" href="#" title="Zoom Out"></a>
+                <a id="reset-zoom" class="zoom-reset-icon" href="#" title="Zoom la Hartă"></a>
+            </div>
+            <div class="control control-group">
+                <a id="show-info" class="info-icon" href="#" title="Info"></a>
+            </div>
+          </div>
+          <div id="spinner"></div>
+          <div id="chart" class="chart-group grabbable">
+
+          </div>
+          <div id="legend-div"></div>
+          <input type="hidden" id="language" name="language" value="en">
+          <p id="map"></p>
+          <div class="below">
+            <div>
+              <strong>Data: </strong> 
+              <a href="covid19.geo-spatial.org">covid19.geo-spatial.org</a>,
+              <a href="https://geoportal.ancpi.ro/">ANCPI</a> <br />
+            </div>
+            <div>
+              <strong>Graphic: </strong> @maptheclouds
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/d3.v5.min.js"></script>
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/topojson.v2.min.js"></script>
+    <script src="../js/d3-geo-projection.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js'></script>
+    <script src="https://unpkg.com/d3-force-attract@0.1.1/dist/d3-force-attract.js"></script>
+    
+
+    <script type="module" src="./js/main.js"></script>
+
+  </body>
+
+</html>
