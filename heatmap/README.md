@@ -4,7 +4,7 @@
 
 ### Title
 
-City Lights Heatmap 🌃
+Lights Heatmap 🌃
 
 ### Demo
 
