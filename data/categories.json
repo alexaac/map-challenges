@@ -310,7 +310,7 @@
     "icon": "",
     "description": " Choropleth ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "heatmap",
@@ -320,7 +320,7 @@
     "icon": "",
     "description": " Heatmap ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "earthnotflat",
@@ -346,7 +346,7 @@
     "icon": "",
     "description": " NULL ",
     "examples": [],
-    "finished": false
+    "finished": true
   },
   {
     "name": "metamapping",
