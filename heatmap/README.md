@@ -12,7 +12,7 @@ City Lights Heatmap 🌃
 
 ### Description
 
-Density combined with lights.
+Population density combined with lights heatmap.
 
 ### Data sources
 
