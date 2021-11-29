@@ -30,6 +30,7 @@ Create a map each day of the month and publish it on Twitter using the hashtag #
 ### Data sources
 
 https://github.com/tjukanovt/30DayMapChallenge#data-
+
 https://github.com/z3tt/30DayChartChallenge_Collection2021
 
 ### Tools
