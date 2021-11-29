@@ -22,6 +22,7 @@ Country parts are colored by groups of 6 time zones.
 ### Inspiration
 
 https://www.pinterest.com/pin/417286721719769179/
+
 https://www.visualcinnamon.com/portfolio/solar-noon/
 
 ### TODO

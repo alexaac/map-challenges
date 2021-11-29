@@ -27,11 +27,17 @@ Watch Pippin as he explores Aiudului Gorges and makes new friends.
 ### Inspiration
 
 https://bl.ocks.org/enjalot/4ff31e96860f38d4fd58
+
 https://github.com/vlandham/scroll_demo
+
 https://maplibre.org/maplibre-gl-js-docs/example
+
 catipsum.com/index.php#.YZzBJLuxWV5
+
 https://lotremipsum.com/result-basic.php
+
 https://openmaptiles.org/docs/website/maplibre-gl-js/
+
 https://maplibre.org/maplibre-gl-js-docs/api/
 
 ### TODO

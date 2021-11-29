@@ -23,9 +23,13 @@ Detect changes in green land coverage using PALSAR-2 images.
 ### Inspiration
 
 https://www.eorc.jaxa.jp/ALOS/en/dataset/lulc/lulc_v2103_e.htm
+
 https://github.com/renelikestacos/Web-Mapping-Leaflet-NodeJS-Tutorials
+
 https://github.com/apal21/Leaflet-Before-After-Map-Comparison-Slider
+
 https://github.com/jieter/Leaflet.Sync
+
 http://zevross.com/blog/2014/08/12/add-a-before-after-map-slider-to-a-leaflet-map/
 
 ### TODO

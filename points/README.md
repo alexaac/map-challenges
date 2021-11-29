@@ -23,6 +23,7 @@ Cities with a bigger rank are more brightly coloured.
 ### Inspiration
 
 https://stackoverflow.com/questions/15907171/d3-canvas-globe-mouse-events
+
 https://observablehq.com/@alainro/can-quadtree-speed-up-zoom-of-many-points-on-a-canvas
 
 ### TODO

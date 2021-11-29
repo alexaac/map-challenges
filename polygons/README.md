@@ -23,6 +23,7 @@ The visualization shows the Timișoara historical center, România.
 ### Inspiration
 
 https://osmbuildings.org/documentation/data/
+
 https://www.nextzen.org/
 
 ### TODO
