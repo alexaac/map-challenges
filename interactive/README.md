@@ -22,10 +22,6 @@ Sample case clusters grouped by county.
 
 ### Inspiration
 
-https://osmbuildings.org/documentation/data/
-
-https://www.nextzen.org/
-
 ### TODO
 
 Clean
