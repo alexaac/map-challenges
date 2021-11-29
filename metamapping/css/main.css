@@ -1,0 +1,30 @@
+.mps-inline-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-img {
+  width: 300px;
+  height: 200px;
+  object-fit: scale-down;
+  margin: 0.5rem;
+  box-shadow: inset 2px 2px 8px #ddd;
+  padding: 0.5rem;
+}
+
+.mps-inline-block .wide {
+  max-width: 100%;
+}
+
+.mps-inline-block.wide > .post-img {
+  width: 1200px;
+  height: 700px;
+  margin: 1rem 0;
+}
+
+.centered {
+  max-width: 2000px;
+}

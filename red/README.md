@@ -4,7 +4,7 @@
 
 ### Title
 
-La Palma, Spain - Lava flow
+La Palma, Spain - Lava flow 🔺
 
 ### Demo
 
