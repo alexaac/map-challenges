@@ -2,9 +2,9 @@
 
 #30DayMapChallenge on Twitter - 2021 experiments
 
-### Demo
+### Gallery
 
-https://maptheclouds.com/playground/30-day-map-challenge/
+https://maptheclouds.com/playground/30-day-map-challenge/metamapping/
 
 ### Project Setup
 
