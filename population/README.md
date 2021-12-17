@@ -17,7 +17,9 @@ Higher bars represent cities with greater population.
 ### Data sources
 
 [Natural Earth](https://www.populationdata.com/downloads/)
+
 [NASA Deep Star Maps](http://planetpixelemporium.com/earth.html)
+
 [Planet Texture Maps](https://svs.gsfc.nasa.gov/3895)
 
 ### Inspiration
