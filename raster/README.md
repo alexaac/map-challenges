@@ -14,7 +14,7 @@ What's that pixel? ◻️
 
 Compare various raster pseudocolor images.
 
-Navigation is sinchronised. Cluj-Napoca zone.
+Navigation is synchronised. Cluj-Napoca zone.
 
 ### Data sources
 
