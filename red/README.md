@@ -17,7 +17,9 @@ The results of the volcanic eruptions since 11 September 2021 in La Palma (Cumbr
 ### Data sources
 
 [Copernicus EMS](https://emergency.copernicus.eu/mapping/ems-product-component/EMSR546_AOI01_GRA_MONIT47_r1_VECTORS/1)
+
 [OpenStreetMap](https://www.openstreetmap.org)
+
 [MapTiler](https://cloud.maptiler.com/tiles/)
 
 ### Inspiration
