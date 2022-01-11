@@ -18,7 +18,7 @@ body {
 
 #sections > .step {
   background-color: rgba(255, 255, 255, 0.7);
-  opacity: 0.2;
+  opacity: 0.5;
   line-height: 1.7;
   width: 40vw;
   max-width: 700px;
@@ -61,6 +61,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.kit {
+  width: 100%;
+  height: 100%;
 }
 
 .mapboxgl-canvas-container {
