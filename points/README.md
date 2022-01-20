@@ -12,7 +12,7 @@ Populated Places on Earth 🌍
 
 ### Description
 
-The visualization below shows the populated places. The bigger the circle, the greater the population.
+The visualization shows the populated places on Earth. The bigger the circle, the greater the population.
 
 Cities with a bigger rank are more brightly coloured.
 

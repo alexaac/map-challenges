@@ -129,7 +129,7 @@ Promise.all(promises)
     drawLegend(rivers);
 
     // Let sample image for now, until faster rendering
-    // drawGraph(rivers);
+    drawGraph(rivers);
   })
   .catch((error) => console.log(error));
 
@@ -238,6 +238,6 @@ const drawGraph = (rivers) => {
     .scaleExtent([0.1, 15])
     .on('zoom', () => render(renderArgs));
 
-  // d3.select(context.canvas).call(zoom);
-  d3.select(context.canvas).call(zoom.scaleTo, 6);
+  d3.select(context.canvas).call(zoom);
+  // d3.select(context.canvas).call(zoom.scaleTo, 6);
 };

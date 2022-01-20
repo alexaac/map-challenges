@@ -28,4 +28,4 @@ https://www.youtube.com/watch?v=xwiHQlmEEjw
 
 ### TODO
 
-Create tiles and zoom level details
+Create tiles and details by zoom level 
