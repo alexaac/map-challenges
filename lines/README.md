@@ -26,6 +26,8 @@ https://observablehq.com/@jipexu/chinese-rivers
 
 https://www.youtube.com/watch?v=xwiHQlmEEjw
 
+https://angrytools.com/gradient/
+
 ### TODO
 
-Create tiles and details by zoom level 
+Create tiles and details by zoom level

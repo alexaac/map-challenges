@@ -17,8 +17,8 @@ class World {
   constructor(
     { containerId, autoRotate, autoRotateSpeed } = {
       containerId: 'chart',
-      autoRotate: true,
-      autoRotateSpeed: 15,
+      autoRotate: false,
+      autoRotateSpeed: 30,
     }
   ) {
     // Get a reference to the container element
@@ -31,7 +31,7 @@ class World {
     container.append(renderer.domElement);
 
     controls = createControls(camera, renderer.domElement);
-    controls.autoRotate = autoRotate;
+    controls.autoRotate = false;
     controls.autoRotateSpeed = autoRotateSpeed;
 
     const { ambientLight, hemisphereLight, dirLight } = createLights();
@@ -56,7 +56,7 @@ class World {
 
     const bars = await loadBars();
 
-    scene.add(globeMesh, earthMesh, bars);
+    scene.add(globeMesh, earthMesh);
   }
 }
 
