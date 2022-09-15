@@ -56,7 +56,7 @@ class World {
 
     const bars = await loadBars();
 
-    scene.add(globeMesh, earthMesh);
+    scene.add(globeMesh, earthMesh, bars);
   }
 }
 

@@ -127,7 +127,7 @@ async function loadGlobe() {
     wireframe: false,
   });
   const lightsMesh = new Mesh(cloudsGeometry, shaderMaterial);
-  earthMesh.add(lightsMesh);
+  // earthMesh.add(lightsMesh);
 
   return { globeMesh, earthMesh };
 }
