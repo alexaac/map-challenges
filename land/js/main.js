@@ -4,7 +4,7 @@ import { drawLegend } from './helpers.js';
 drawLegend();
 
 const center = [45.959, 24.77];
-const zoom = 7;
+const zoom = 6;
 const bounds = L.latLngBounds([
   [42.8556641141826091, 19.8926419505805505],
   [49.0083638936841339, 30.6858084990024977],

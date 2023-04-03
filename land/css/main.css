@@ -6,8 +6,8 @@
 
 @media (max-width: 576px) {
   .chart-group {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 450px;
   }
 }
 
@@ -29,5 +29,12 @@
   /* Large devices (desktops, $desktop and up) */
   .chart-group {
     width: 1000px;
+  }
+}
+
+@media (min-width: 940px) {
+  .centered {
+    max-width: 1300px;
+    float: none;
   }
 }
